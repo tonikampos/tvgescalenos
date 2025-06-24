@@ -1,0 +1,21 @@
+# Arquivos temporais
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# Directorios de node
+node_modules/
+npm-debug.log*
+
+# Arquivos de procesamento temporal
+process_tvg_questions.js
+unique_tvg_questions.json
+
+# Arquivos de sistema
+.vscode/
+.idea/
+
+# Arquivos de backup
+*.bak
+*.backup

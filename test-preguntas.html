@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="gl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Preguntas - OS ESCALENOS</title>
+</head>
+<body>
+    <h1>Test das 330 preguntas</h1>
+    <div id="resultado"></div>
+    
+    <script src="js/questions.js"></script>
+    <script>
+        const manager = new QuestionsManager();
+        const todasPreguntas = manager.getAllQuestions();
+        
+        const resultado = document.getElementById('resultado');
+        
+        resultado.innerHTML = `
+            <h2>Resultados do test:</h2>
+            <p><strong>Total de preguntas cargadas:</strong> ${todasPreguntas.length}</p>
+            <p><strong>Primeira pregunta:</strong> ${todasPreguntas[0].question}</p>
+            <p><strong>Última pregunta:</strong> ${todasPreguntas[todasPreguntas.length - 1].question}</p>
+            <p><strong>Pregunta 231 (primeira nova):</strong> ${todasPreguntas[230] ? todasPreguntas[230].question : 'Non atopada'}</p>
+            <p><strong>Pregunta 330 (última nova):</strong> ${todasPreguntas[329] ? todasPreguntas[329].question : 'Non atopada'}</p>
+            
+            <h3>Resumo por categorías:</h3>
+            <ul>
+                <li>Xeografía: ${todasPreguntas.filter(q => q.category === 'xeografia').length}</li>
+                <li>Música: ${todasPreguntas.filter(q => q.category === 'musica').length}</li>
+                <li>Deportes: ${todasPreguntas.filter(q => q.category === 'deportes').length}</li>
+                <li>Cultura: ${todasPreguntas.filter(q => q.category === 'cultura').length}</li>
+                <li>Historia: ${todasPreguntas.filter(q => q.category === 'historia').length}</li>
+                <li>Literatura: ${todasPreguntas.filter(q => q.category === 'literatura').length}</li>
+                <li>Outras: ${todasPreguntas.filter(q => !['xeografia', 'musica', 'deportes', 'cultura', 'historia', 'literatura'].includes(q.category)).length}</li>
+            </ul>
+            
+            <h3>Algunhas preguntas novas (IDs 231-330):</h3>
+            <ul>
+                ${todasPreguntas.slice(230, 240).map(q => `<li><strong>ID ${q.id}:</strong> ${q.question} (${q.category})</li>`).join('')}
+            </ul>
+        `;
+    </script>
+</body>
+</html>
