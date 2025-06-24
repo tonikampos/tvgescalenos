@@ -1,4 +1,4 @@
-const CACHE_NAME = 'os-escalenos-trivia-v2.3.1-448preguntas-' + Date.now();
+const CACHE_NAME = 'os-escalenos-trivia-v2.4.0-556preguntas-tv-' + Date.now();
 const urlsToCache = [
   './',
   './index.html',

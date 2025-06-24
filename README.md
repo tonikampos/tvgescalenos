@@ -1,18 +1,37 @@
-# 🧠 OS ESCALENOS - Trivia Galega v2.0
+# 🧠 OS ESCALENOS - Trivia Galega TV v2.4.0
 
-Unha aplicación web progresiva (PWA) de trivia e cultura general en galego desenvolvida polo equipo **OS ESCALENOS**. Pon a proba os teus coñecementos cun xogo divertido e educativo!
+Unha aplicación web progresiva (PWA) de trivia e cultura general en galego desenvolvida polo equipo **OS ESCALENOS**. Especialmente deseñada para programa de televisión galego con **556 preguntas** de alta calidade. Pon a proba os teus coñecementos cun xogo divertido e educativo!
 
-## 🌟 Características v2.0
+## 🌟 Características v2.4.0
 
 ### ✅ Funcionalidades principais
-- **Xogo de trivia** con **456+ preguntas** de cultura general en galego
+- **Xogo de trivia** con **556 preguntas** específicas para programa de televisión galego
 - **Sistema de usuarios**: Crear e xestionar múltiples usuarios
-- **Configuración personalizada**: Escoller número de preguntas (5-25) por partida
-- **Avance manual**: O usuario controla cando pasar á seguinte pregunta
+- **Configuración personalizada**: Escoller número de preguntas (10-100) por partida
+- **Avance automático**: Pasa automaticamente á seguinte pregunta tras responder
 - **Sistema de puntuación** gardado por usuario
 - **Estatísticas detalladas** do rendemento por usuario
 - **Historial de partidas** gardado localmente por usuario
-- **Especial énfase na cultura galega**: tradicións, literatura, xeografía, gastronomía, deportes, música, etc.
+- **Especial énfase na cultura galega**: historia, literatura, xeografía, gastronomía, deportes, música, TVG, personalidades, etc.
+
+### 📺 Categorías específicas para televisión
+- **Historia de Galicia** - Datas importantes, personaxes históricos
+- **Personaxes ilustres galegos** - Escritores, científicos, artistas
+- **Cultura popular e tradicións** - Festas, costumes, mitoloxía
+- **Deporte galego** - Figuras, equipos, modalidades tradicionais
+- **Xeografía avanzada** - Ríos, montañas, costas, parques naturais
+- **Arquitectura e patrimonio** - Monumentos, castelos, mosteiros
+- **Gastronomía** - Pratos típicos, viños, produtos locais
+- **Cinema e TV galega** - Directores, actores, películas
+- **Lingua galega** - Historia, institucións, literatura
+- **Economía e industria** - Empresas, sectores económicos
+- **Natureza e medio ambiente** - Flora, fauna, espacios protexidos
+- **Mitoloxía e lendas** - Criaturas míticas, tradicións orais
+- **Camiño de Santiago** - Historia, rutas, simbolos
+- **Ciencia e tecnoloxía** - Centros de investigación, innovación
+- **Arte e museos** - Coleccións, exposicións, artistas
+- **Literatura contemporánea** - Autores modernos, premios
+- **Música contemporánea** - Grupos, cantantes, festivais
 
 ### ✅ Características PWA
 - **Instalable** como aplicación nativa

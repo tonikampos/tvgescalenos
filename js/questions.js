@@ -3665,14 +3665,860 @@ const QUESTIONS_DATABASE = [
     correct: 0,
     category: "tvg",
     difficulty: "medium"
-  },
-  {
+  },  {
     id: 456,
     question: "Quen é o presentador histórico de 'Luar' na TVG?",
     answers: ["Xosé Ramón Gayoso", "Paco Lodeiro", "Arturo Valls", "Carlos Sobera"],
     correct: 0,
     category: "tvg",
     difficulty: "easy"
+  },
+
+  // === PREGUNTAS PARA PROGRAMA DE TELEVISIÓN (IDs 457-556) ===
+  // Historia de Galicia
+  {
+    id: 457,
+    question: "En que ano se creou a Xunta de Galicia como institución democrática?",
+    answers: ["1978", "1981", "1982", "1985"],
+    correct: 1,
+    category: "historia",
+    difficulty: "medium"
+  },
+  {
+    id: 458,
+    question: "Quen foi o primeiro presidente da Xunta de Galicia democrática?",
+    answers: ["Xerardo Fernández Albor", "Manuel Fraga", "Fernando González Laxe", "Emilio Pérez Touriño"],
+    correct: 0,
+    category: "historia",
+    difficulty: "medium"
+  },
+  {
+    id: 459,
+    question: "Onde se atopa a Torre de Hércules?",
+    answers: ["Vigo", "A Coruña", "Ferrol", "Pontevedra"],
+    correct: 1,
+    category: "patrimonio",
+    difficulty: "easy"
+  },
+  {
+    id: 460,
+    question: "Cal é o nome da antiga ruta comercial que conectaba Galicia con América?",
+    answers: ["Ruta da Prata", "Ruta dos Galeóns", "Camiño Portugués", "Carreira de Indias"],
+    correct: 3,
+    category: "historia",
+    difficulty: "hard"
+  },
+
+  // Personaxes ilustres galegos
+  {
+    id: 461,
+    question: "Rosalía de Castro escribiu principalmente en que idioma?",
+    answers: ["Só en galego", "Só en castelán", "En galego e castelán", "En portugués"],
+    correct: 2,
+    category: "literatura",
+    difficulty: "medium"
+  },
+  {
+    id: 462,
+    question: "Emilia Pardo Bazán foi pioneira en que movimento literario?",
+    answers: ["Romantismo", "Naturalismo", "Modernismo", "Realismo"],
+    correct: 1,
+    category: "literatura",
+    difficulty: "hard"
+  },
+  {
+    id: 463,
+    question: "O científico Julio Rey Pastor destacou en que disciplina?",
+    answers: ["Medicina", "Física", "Matemáticas", "Química"],
+    correct: 2,
+    category: "ciencia",
+    difficulty: "medium"
+  },
+  {
+    id: 464,
+    question: "Santiago Ramón y Cajal, premio Nobel, naceu en que provincia galega?",
+    answers: ["A Coruña", "Lugo", "Ourense", "Pontevedra"],
+    correct: 2,
+    category: "ciencia",
+    difficulty: "hard"
+  },
+
+  // Cultura popular e tradicións
+  {
+    id: 465,
+    question: "Cal é o instrumento musical típico galego máis coñecido?",
+    answers: ["Acordeón", "Gaita", "Zanfona", "Tambor"],
+    correct: 1,
+    category: "cultura",
+    difficulty: "easy"
+  },
+  {
+    id: 466,
+    question: "Como se chama a festa tradicional galega onde se queima unha figura?",
+    answers: ["San Xoán", "O Entroido", "A Queimada", "San Martiño"],
+    correct: 0,
+    category: "cultura",
+    difficulty: "medium"
+  },
+  {
+    id: 467,
+    question: "Que ingrediente principal leva a queimada?",
+    answers: ["Viño", "Augardente", "Licor café", "Ron"],
+    correct: 1,
+    category: "gastronomia",
+    difficulty: "easy"
+  },
+  {
+    id: 468,
+    question: "Cal é o doce típico galego máis famoso?",
+    answers: ["Filloas", "Tarta de Santiago", "Roscón de reis", "Mel e noz"],
+    correct: 1,
+    category: "gastronomia",
+    difficulty: "easy"
+  },
+
+  // Deporte galego
+  {
+    id: 469,
+    question: "Quen foi o ciclista galego que gañou o Tour de Francia?",
+    answers: ["Óscar Pereiro", "Carlos Sastre", "Ezequiel Mosquera", "David Arroyo"],
+    correct: 0,
+    category: "deporte",
+    difficulty: "medium"
+  },
+  {
+    id: 470,
+    question: "En que cidade está o estadio de Riazor?",
+    answers: ["Vigo", "Santiago", "A Coruña", "Ferrol"],
+    correct: 2,
+    category: "deporte",
+    difficulty: "easy"
+  },
+  {
+    id: 471,
+    question: "Cal é o deporte tradicional galego máis praticado?",
+    answers: ["Pelota", "Bolos", "Levantamento de pedra", "Corta de troncos"],
+    correct: 0,
+    category: "deporte",
+    difficulty: "medium"
+  },
+  {
+    id: 472,
+    question: "Iago Aspas xoga actualmente en que equipo?",
+    answers: ["Real Madrid", "FC Barcelona", "Celta de Vigo", "Deportivo"],
+    correct: 2,
+    category: "deporte",
+    difficulty: "easy"
+  },
+
+  // Xeografía avanzada
+  {
+    id: 473,
+    question: "Cal é o pico máis alto de Galicia?",
+    answers: ["Trevinca", "Cabeza de Manzaneda", "Pena Ubiña", "O Cebreiro"],
+    correct: 0,
+    category: "xeografia",
+    difficulty: "medium"
+  },
+  {
+    id: 474,
+    question: "Cantas provincias ten Galicia?",
+    answers: ["3", "4", "5", "6"],
+    correct: 1,
+    category: "xeografia",
+    difficulty: "easy"
+  },
+  {
+    id: 475,
+    question: "Cal é a praia máis longa de Galicia?",
+    answers: ["Praia de Samil", "Praia da Lanzada", "Praia de Carnota", "Praia de Rodas"],
+    correct: 2,
+    category: "xeografia",
+    difficulty: "hard"
+  },
+  {
+    id: 476,
+    question: "Que río pasa por Ourense?",
+    answers: ["Ulla", "Miño", "Tambre", "Eo"],
+    correct: 1,
+    category: "xeografia",
+    difficulty: "medium"
+  },
+
+  // Arquitectura e patrimonio
+  {
+    id: 477,
+    question: "En que século se construíu a Catedral de Santiago?",
+    answers: ["X", "XI", "XII", "XIII"],
+    correct: 2,
+    category: "patrimonio",
+    difficulty: "hard"
+  },
+  {
+    id: 478,
+    question: "Que estilo arquitectónico predomina na Catedral de Santiago?",
+    answers: ["Gótico", "Románico", "Barroco", "Neoclásico"],
+    correct: 1,
+    category: "patrimonio",
+    difficulty: "medium"
+  },
+  {
+    id: 479,
+    question: "Cal é o castelo máis visitado de Galicia?",
+    answers: ["Castelo de Soutomaior", "Castelo de Monterrei", "Castelo de Moeche", "Castelo de Vimianzo"],
+    correct: 0,
+    category: "patrimonio",
+    difficulty: "medium"
+  },
+  {
+    id: 480,
+    question: "Onde se atopa o Mosteiro de Oseira?",
+    answers: ["Lugo", "Ourense", "Pontevedra", "A Coruña"],
+    correct: 1,
+    category: "patrimonio",
+    difficulty: "hard"
+  },
+
+  // Festa e celebracións
+  {
+    id: 481,
+    question: "Cando se celebra o Día das Letras Galegas?",
+    answers: ["17 de maio", "25 de xullo", "12 de outubro", "6 de xaneiro"],
+    correct: 0,
+    category: "cultura",
+    difficulty: "medium"
+  },
+  {
+    id: 482,
+    question: "Que festa se celebra en Ribadeo en setembro?",
+    answers: ["Festa do Marisco", "Festa da Androlla", "Festa do Bonito", "Festa do Viño"],
+    correct: 2,
+    category: "cultura",
+    difficulty: "hard"
+  },
+  {
+    id: 483,
+    question: "Onde se celebra a famosa Festa da Virxe da Barca?",
+    answers: ["Muxía", "Fisterra", "Noia", "Muros"],
+    correct: 0,
+    category: "cultura",
+    difficulty: "medium"
+  },
+  {
+    id: 484,
+    question: "Cal é a festa máis importante de Santiago de Compostela?",
+    answers: ["San Xoán", "Festas do Apóstolo", "Entroido", "San Martiño"],
+    correct: 1,
+    category: "cultura",
+    difficulty: "easy"
+  },
+
+  // Gastronomía avanzada
+  {
+    id: 485,
+    question: "Cal é o prato típico da comarca do Ribeiro?",
+    answers: ["Cocido", "Empanada", "Lacón con grelos", "Churrasco"],
+    correct: 2,
+    category: "gastronomia",
+    difficulty: "medium"
+  },
+  {
+    id: 486,
+    question: "Que denominación de orixe ten o viño de Rías Baixas?",
+    answers: ["Albariño", "Godello", "Mencía", "Treixadura"],
+    correct: 0,
+    category: "gastronomia",
+    difficulty: "medium"
+  },
+  {
+    id: 487,
+    question: "Cal é o marisco máis típico das Rías Baixas?",
+    answers: ["Nécora", "Centola", "Percebes", "Mexillóns"],
+    correct: 3,
+    category: "gastronomia",
+    difficulty: "easy"
+  },
+  {
+    id: 488,
+    question: "Como se chama o pan típico galego?",
+    answers: ["Pan de millo", "Bica", "Pan de centeo", "Rosca"],
+    correct: 2,
+    category: "gastronomia",
+    difficulty: "medium"
+  },
+
+  // Cinema e TV galega
+  {
+    id: 489,
+    question: "Cal foi a primeira película galega que obtivo recoñecemento internacional?",
+    answers: ["O bosque animado", "A lingua das bolboretas", "Mar adentro", "Sempre Xonxa"],
+    correct: 1,
+    category: "cinema",
+    difficulty: "hard"
+  },
+  {
+    id: 490,
+    question: "Quen dirixiu a película 'Mar adentro'?",
+    answers: ["Alejandro Amenábar", "José Luis Cuerda", "Manuel Rivas", "Carlos Blanco"],
+    correct: 0,
+    category: "cinema",
+    difficulty: "medium"
+  },
+  {
+    id: 491,
+    question: "Xosé Luis Cuerda dirixiu que famosa película galega?",
+    answers: ["Mareas vivas", "A lingua das bolboretas", "O lápis do carpinteiro", "Airbag"],
+    correct: 1,
+    category: "cinema",
+    difficulty: "medium"
+  },
+  {
+    id: 492,
+    question: "Cal destes actores protagonizou 'A lingua das bolboretas'?",
+    answers: ["Luis Tosar", "Fernando Fernán Gómez", "Karra Elejalde", "Carlos Blanco"],
+    correct: 1,
+    category: "cinema",
+    difficulty: "hard"
+  },
+
+  // Lingua galega
+  {
+    id: 493,
+    question: "O galego pertence a que familia lingüística?",
+    answers: ["Latina", "Céltica", "Xermánica", "Románica"],
+    correct: 3,
+    category: "lingua",
+    difficulty: "medium"
+  },
+  {
+    id: 494,
+    question: "Cal é a institución que regula a lingua galega?",
+    answers: ["Real Academia Galega", "Instituto da Lingua Galega", "Xunta de Galicia", "Consello da Cultura Galega"],
+    correct: 0,
+    category: "lingua",
+    difficulty: "medium"
+  },
+  {
+    id: 495,
+    question: "Os 'Miragres de Santiago' son que tipo de obra?",
+    answers: ["Poesía lírica", "Teatro medieval", "Primeiro texto en galego", "Crónica histórica"],
+    correct: 2,
+    category: "lingua",
+    difficulty: "hard"
+  },
+  {
+    id: 496,
+    question: "Cantas persoas falan galego en Galicia aproximadamente?",
+    answers: ["1 millón", "1,5 millóns", "2 millóns", "2,5 millóns"],
+    correct: 2,
+    category: "lingua",
+    difficulty: "medium"
+  },
+
+  // Economía e industria
+  {
+    id: 497,
+    question: "Cal é o sector económico máis importante en Galicia?",
+    answers: ["Turismo", "Pesca", "Industria naval", "Agricultura"],
+    correct: 2,
+    category: "economia",
+    difficulty: "medium"
+  },
+  {
+    id: 498,
+    question: "Onde está a sede de Inditex?",
+    answers: ["Vigo", "A Coruña", "Santiago", "Arteixo"],
+    correct: 3,
+    category: "economia",
+    difficulty: "medium"
+  },
+  {
+    id: 499,
+    question: "Cal é o porto máis importante de Galicia?",
+    answers: ["Porto de Vigo", "Porto da Coruña", "Porto de Ferrol", "Porto de Marín"],
+    correct: 0,
+    category: "economia",
+    difficulty: "easy"
+  },
+  {
+    id: 500,
+    question: "Amancio Ortega é fundador de que empresa?",
+    answers: ["Pescanova", "Inditex", "Banco Pastor", "Abanca"],
+    correct: 1,
+    category: "economia",
+    difficulty: "easy"
+  },
+
+  // Natureza e medio ambiente
+  {
+    id: 501,
+    question: "Cal é o Parque Nacional de Galicia?",
+    answers: ["Parque da Peneda-Gerês", "Parque das Illas Atlánticas", "Parque da Fragas do Eume", "Parque do Invernadeiro"],
+    correct: 1,
+    category: "natureza",
+    difficulty: "medium"
+  },
+  {
+    id: 502,
+    question: "Que árbore é símbolo de Galicia?",
+    answers: ["Castiñeiro", "Carballo", "Eucalipto", "Piñeiro"],
+    correct: 1,
+    category: "natureza",
+    difficulty: "medium"
+  },
+  {
+    id: 503,
+    question: "Cal é a ave emblemática de Galicia?",
+    answers: ["Gaivota", "Corvo mariño", "Frailecillo", "Aguia real"],
+    correct: 1,
+    category: "natureza",
+    difficulty: "hard"
+  },
+  {
+    id: 504,
+    question: "Cantos quilómetros de costa ten Galicia aproximadamente?",
+    answers: ["800 km", "1.200 km", "1.500 km", "2.000 km"],
+    correct: 1,
+    category: "xeografia",
+    difficulty: "medium"
+  },
+
+  // Mitoloxía e lendas
+  {
+    id: 505,
+    question: "Como se chaman as figuras femininas da mitoloxía galega que viven nas fontes?",
+    answers: ["Meigas", "Mouras", "Lavandeiras", "Ninfas"],
+    correct: 1,
+    category: "mitoloxia",
+    difficulty: "medium"
+  },
+  {
+    id: 506,
+    question: "Segundo a lenda, que animal acompaña á Santa Compaña?",
+    answers: ["Lobo", "Can", "Gato", "Corvo"],
+    correct: 1,
+    category: "mitoloxia",
+    difficulty: "medium"
+  },
+  {
+    id: 507,
+    question: "Cal é o nome do home-lobo na mitoloxía galega?",
+    answers: ["Trasgo", "Lobisón", "Urco", "Diaño"],
+    correct: 1,
+    category: "mitoloxia",
+    difficulty: "hard"
+  },
+  {
+    id: 508,
+    question: "Que criatura mitolóxica galega se caracteriza por facer travesuras domésticas?",
+    answers: ["Trasgo", "Diaño", "Urco", "Mouros"],
+    correct: 0,
+    category: "mitoloxia",
+    difficulty: "medium"
+  },
+
+  // Preguntas de cultura xeral con toque galego
+  {
+    id: 509,
+    question: "Que océano baña as costas galegas?",
+    answers: ["Atlántico", "Mediterráneo", "Cantábrico", "Índico"],
+    correct: 0,
+    category: "xeografia",
+    difficulty: "easy"
+  },
+  {
+    id: 510,
+    question: "Cal é a universidade máis antiga de Galicia?",
+    answers: ["Universidade da Coruña", "Universidade de Santiago", "Universidade de Vigo", "Universidade de Lugo"],
+    correct: 1,
+    category: "educacion",
+    difficulty: "medium"
+  },
+  {
+    id: 511,
+    question: "En que ano se fundou a Universidade de Santiago?",
+    answers: ["1495", "1504", "1532", "1558"],
+    correct: 2,
+    category: "educacion",
+    difficulty: "hard"
+  },
+  {
+    id: 512,
+    question: "Cal é o himno oficial de Galicia?",
+    answers: ["Os Pinos", "Alborada", "Negra Sombra", "A Rianxeira"],
+    correct: 0,
+    category: "cultura",
+    difficulty: "easy"
+  },
+
+  // Actualidade e modernidade
+  {
+    id: 513,
+    question: "Cal é o actual presidente da Xunta de Galicia?",
+    answers: ["Alberto Núñez Feijóo", "Alfonso Rueda", "Emilio Pérez Touriño", "Manuel Fraga"],
+    correct: 1,
+    category: "politica",
+    difficulty: "easy"
+  },
+  {
+    id: 514,
+    question: "Cantos concellos ten Galicia?",
+    answers: ["313", "314", "315", "316"],
+    correct: 0,
+    category: "politica",
+    difficulty: "hard"
+  },
+  {
+    id: 515,
+    question: "Cal é a empresa galega máis internacional?",
+    answers: ["Pescanova", "Inditex", "Estrella Galicia", "Abanca"],
+    correct: 1,
+    category: "economia",
+    difficulty: "easy"
+  },
+  {
+    id: 516,
+    question: "Onde se celebra o Festival Internacional de Cine de Galicia?",
+    answers: ["Santiago", "Vigo", "A Coruña", "Ourense"],
+    correct: 2,
+    category: "cinema",
+    difficulty: "medium"
+  },
+
+  // Preguntas de curiosidades
+  {
+    id: 517,
+    question: "Cal é o apelido máis común en Galicia?",
+    answers: ["López", "García", "González", "Fernández"],
+    correct: 3,
+    category: "curiosidades",
+    difficulty: "medium"
+  },
+  {
+    id: 518,
+    question: "Cantas illas ten Galicia aproximadamente?",
+    answers: ["Máis de 300", "Máis de 600", "Máis de 900", "Máis de 1200"],
+    correct: 2,
+    category: "xeografia",
+    difficulty: "hard"
+  },
+  {
+    id: 519,
+    question: "Cal é a temperatura máxima rexistrada en Galicia?",
+    answers: ["42°C", "45°C", "47°C", "49°C"],
+    correct: 0,
+    category: "clima",
+    difficulty: "hard"
+  },
+  {
+    id: 520,
+    question: "Que porcentaxe da superficie galega é forestal?",
+    answers: ["45%", "55%", "65%", "75%"],
+    correct: 2,
+    category: "natureza",
+    difficulty: "hard"
+  },
+
+  // Ciencia e tecnoloxía
+  {
+    id: 521,
+    question: "Onde está o Centro Tecnológico do Mar de Galicia?",
+    answers: ["Vigo", "A Coruña", "Ferrol", "Villagarcía"],
+    correct: 0,
+    category: "ciencia",
+    difficulty: "medium"
+  },
+  {
+    id: 522,
+    question: "Cal é o centro de investigación mariña máis importante de Galicia?",
+    answers: ["CETMAR", "IIM-CSIC", "ANFACO", "INTECMAR"],
+    correct: 1,
+    category: "ciencia",
+    difficulty: "hard"
+  },
+  {
+    id: 523,
+    question: "Que telescopio famoso se atopa cerca de Santiago?",
+    answers: ["Observatorio de Calar Alto", "Observatorio de Cotobade", "Observatorio do Roque", "Observatorio de Yebes"],
+    correct: 1,
+    category: "ciencia",
+    difficulty: "hard"
+  },
+  {
+    id: 524,
+    question: "Cal é a primeira central eólica marina de España?",
+    answers: ["WindFloat Atlantic", "Cabo de Trafalgar", "Delta del Ebro", "Windfarm Catalunya"],
+    correct: 0,
+    category: "tecnoloxia",
+    difficulty: "hard"
+  },
+
+  // Arte e museos
+  {
+    id: 525,
+    question: "Onde está o Museo de Belas Artes máis importante de Galicia?",
+    answers: ["Santiago", "Vigo", "A Coruña", "Ourense"],
+    correct: 2,
+    category: "arte",
+    difficulty: "medium"
+  },
+  {
+    id: 526,
+    question: "Quen deseñou o Museo Gaiás de Santiago?",
+    answers: ["Peter Eisenman", "Norman Foster", "Frank Gehry", "Zaha Hadid"],
+    correct: 0,
+    category: "arte",
+    difficulty: "hard"
+  },
+  {
+    id: 527,
+    question: "Cal é o museo dedicado ao mar máis visitado de Galicia?",
+    answers: ["Aquarium Finisterrae", "Museo do Mar de Vigo", "Casa dos Peixes", "MEGA Mundo Estrella Galicia"],
+    correct: 0,
+    category: "museos",
+    difficulty: "medium"
+  },
+  {
+    id: 528,
+    question: "Onde se atopa o Museo das Peregrinacións?",
+    answers: ["Santiago", "Astorga", "O Cebreiro", "Sarria"],
+    correct: 0,
+    category: "museos",
+    difficulty: "easy"
+  },
+
+  // Camiño de Santiago
+  {
+    id: 529,
+    question: "Cantos quilómetros ten o Camiño Francés dende os Pireneos?",
+    answers: ["780 km", "800 km", "820 km", "850 km"],
+    correct: 1,
+    category: "camiño",
+    difficulty: "medium"
+  },
+  {
+    id: 530,
+    question: "Cal é o símbolo do Camiño de Santiago?",
+    answers: ["Cruz", "Vieira", "Bordón", "Cabaza"],
+    correct: 1,
+    category: "camiño",
+    difficulty: "easy"
+  },
+  {
+    id: 531,
+    question: "Onde comeza oficialmente o Camiño Francés?",
+    answers: ["Le Puy", "Saint-Jean-Pied-de-Port", "Roncesvalles", "Pamplona"],
+    correct: 1,
+    category: "camiño",
+    difficulty: "medium"
+  },
+  {
+    id: 532,
+    question: "Cal é o albergue de peregrinos máis antigo que se conserva?",
+    answers: ["Albergue de Roncesvalles", "Hospital de San Marcos", "Albergue de O Cebreiro", "Hospital dos Reis Católicos"],
+    correct: 3,
+    category: "camiño",
+    difficulty: "hard"
+  },
+
+  // Deportes tradicionais
+  {
+    id: 533,
+    question: "Cal é o peso estándar dunha pedra no levantamento tradicional galego?",
+    answers: ["50 kg", "75 kg", "100 kg", "125 kg"],
+    correct: 2,
+    category: "deporte",
+    difficulty: "hard"
+  },
+  {
+    id: 534,
+    question: "Como se chama o xogo tradicional galego similar ao bowling?",
+    answers: ["Birlos", "Bolos", "Chave", "Rana"],
+    correct: 1,
+    category: "deporte",
+    difficulty: "medium"
+  },
+  {
+    id: 535,
+    question: "Cal é a modalidade de remo tradicional galega?",
+    answers: ["Trainera", "Gamela", "Dorna", "Batelo"],
+    correct: 2,
+    category: "deporte",
+    difficulty: "medium"
+  },
+  {
+    id: 536,
+    question: "Onde se celebra o campeonato mundial de corta de troncos?",
+    answers: ["Taramundi", "Mondoñedo", "Tui", "Ribadeo"],
+    correct: 0,
+    category: "deporte",
+    difficulty: "hard"
+  },
+
+  // Literatura contemporánea
+  {
+    id: 537,
+    question: "Manuel Rivas escribiu que novela famosa levada ao cinema?",
+    answers: ["O lápis do carpinteiro", "A lingua das bolboretas", "Todo é silencio", "A man dos paíños"],
+    correct: 1,
+    category: "literatura",
+    difficulty: "medium"
+  },
+  {
+    id: 538,
+    question: "Suso de Toro é autor de que novela galega famosa?",
+    answers: ["Land Rover", "Tic Tac", "Polaroid", "Ambulancia"],
+    correct: 0,
+    category: "literatura",
+    difficulty: "hard"
+  },
+  {
+    id: 539,
+    question: "Fina Casalderrey destaca como escritora de que xénero?",
+    answers: ["Poesía", "Novela histórica", "Literatura infantil", "Teatro"],
+    correct: 2,
+    category: "literatura",
+    difficulty: "medium"
+  },
+  {
+    id: 540,
+    question: "Cal destes autores gañou o Premio Nacional de Literatura en galego?",
+    answers: ["Xosé Luís Méndez Ferrín", "Alfredo Conde", "Marilar Aleixandre", "Todos os anteriores"],
+    correct: 3,
+    category: "literatura",
+    difficulty: "hard"
+  },
+
+  // Música contemporánea
+  {
+    id: 541,
+    question: "Cal destes grupos galegos tivo máis éxito internacional?",
+    answers: ["Siniestro Total", "Heredeiros da Crus", "Mago de Oz", "Los Suaves"],
+    correct: 0,
+    category: "musica",
+    difficulty: "medium"
+  },
+  {
+    id: 542,
+    question: "Carlos Núñez é famoso por tocar que instrumento?",
+    answers: ["Gaita", "Violín", "Guitarra", "Acordeón"],
+    correct: 0,
+    category: "musica",
+    difficulty: "easy"
+  },
+  {
+    id: 543,
+    question: "Que cantante galega representou a España en Eurovisión?",
+    answers: ["Luz Casal", "Christina Rosenvinge", "Marta Sánchez", "Ninguna das anteriores"],
+    correct: 3,
+    category: "musica",
+    difficulty: "hard"
+  },
+  {
+    id: 544,
+    question: "O grupo Luar na Lubre fusiona música tradicional con que estilo?",
+    answers: ["Rock", "Pop", "Música celta", "Jazz"],
+    correct: 2,
+    category: "musica",
+    difficulty: "medium"
+  },
+
+  // Preguntas finais variadas
+  {
+    id: 545,
+    question: "Cal é o lema oficial de Galicia?",
+    answers: ["Galicia, Calidade", "Galicia, Terra Única", "Galicia, No teu corazón", "Non ten lema oficial"],
+    correct: 3,
+    category: "cultura",
+    difficulty: "hard"
+  },
+  {
+    id: 546,
+    question: "Cantos faros ten a costa galega aproximadamente?",
+    answers: ["25", "35", "45", "55"],
+    correct: 2,
+    category: "xeografia",
+    difficulty: "hard"
+  },
+  {
+    id: 547,
+    question: "Cal é a raza de cabalo autóctona de Galicia?",
+    answers: ["Garrano", "Losino", "Pura Raza Gallega", "Non existe"],
+    correct: 0,
+    category: "natureza",
+    difficulty: "hard"
+  },
+  {
+    id: 548,
+    question: "Onde se atopa a reserva da biosfera máis extensa de Galicia?",
+    answers: ["Ancares", "Terras do Miño", "Mariñas Coruñesas", "Área de Allariz"],
+    correct: 0,
+    category: "natureza",
+    difficulty: "hard"
+  },
+  {
+    id: 549,
+    question: "Cal é o produto do mar máis exportado dende Galicia?",
+    answers: ["Mexillóns", "Berberechos", "Conservas", "Polbo"],
+    correct: 2,
+    category: "economia",
+    difficulty: "medium"
+  },
+  {
+    id: 550,
+    question: "Que porcentaxe da produción pesqueira española procede de Galicia?",
+    answers: ["40%", "50%", "60%", "70%"],
+    correct: 2,
+    category: "economia",
+    difficulty: "medium"
+  },
+  {
+    id: 551,
+    question: "Cal é a denominación de orixe máis nova dos viños galegos?",
+    answers: ["Monterrei", "Rías Baixas", "Ribeira Sacra", "Valdeorras"],
+    correct: 0,
+    category: "gastronomia",
+    difficulty: "hard"
+  },
+  {
+    id: 552,
+    question: "Cantos quilómetros de sendeiros ten o Camiño de Santiago en Galicia?",
+    answers: ["100 km", "150 km", "200 km", "250 km"],
+    correct: 2,
+    category: "camiño",
+    difficulty: "medium"
+  },
+  {
+    id: 553,
+    question: "Cal é a temperatura media anual en Galicia?",
+    answers: ["12°C", "14°C", "16°C", "18°C"],
+    correct: 1,
+    category: "clima",
+    difficulty: "medium"
+  },
+  {
+    id: 554,
+    question: "Que cantidade de choiva media anual recibe Galicia?",
+    answers: ["800 mm", "1.200 mm", "1.600 mm", "2.000 mm"],
+    correct: 1,
+    category: "clima",
+    difficulty: "hard"
+  },
+  {
+    id: 555,
+    question: "Cal é a maior feria medieval de Galicia?",
+    answers: ["Feira Franca de Pontevedra", "Festa da Istoria de Ribadavia", "Mercado Medieval de Mondoñedo", "Feira Medieval de Betanzos"],
+    correct: 1,
+    category: "cultura",
+    difficulty: "medium"
+  },
+  {
+    id: 556,
+    question: "Cantos Patrimonio da Humanidade da UNESCO ten Galicia?",
+    answers: ["2", "3", "4", "5"],
+    correct: 1,
+    category: "patrimonio",
+    difficulty: "medium"
   }
 ];
 
