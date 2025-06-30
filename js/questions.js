@@ -5388,6 +5388,4211 @@ const QUESTIONS_DATABASE = [
     correct: 1,
     category: "musica",
     difficulty: "medium"
+  },
+
+  // === PREGUNTAS DE MATEMÁTICAS E FÍSICA (IDs 657-756) ===
+  // Matemáticas básicas
+  {
+    id: 657,
+    question: "Canto é 2 + 2?",
+    answers: ["3", "4", "5", "6"],
+    correct: 1,
+    category: "matematicas",
+    difficulty: "easy"
+  },
+  {
+    id: 658,
+    question: "Cal é o resultado de 7 × 8?",
+    answers: ["54", "56", "58", "62"],
+    correct: 1,
+    category: "matematicas",
+    difficulty: "easy"
+  },
+  {
+    id: 659,
+    question: "Canto é 100 ÷ 4?",
+    answers: ["20", "25", "30", "35"],
+    correct: 1,
+    category: "matematicas",
+    difficulty: "easy"
+  },
+  {
+    id: 660,
+    question: "Cal é o valor de π (pi) aproximadamente?",
+    answers: ["3.14", "2.71", "4.16", "1.41"],
+    correct: 0,
+    category: "matematicas",
+    difficulty: "medium"
+  },
+  {
+    id: 661,
+    question: "Canto é 15²?",
+    answers: ["225", "215", "235", "245"],
+    correct: 0,
+    category: "matematicas",
+    difficulty: "medium"
+  },
+  {
+    id: 662,
+    question: "Cal é a raíz cadrada de 64?",
+    answers: ["6", "7", "8", "9"],
+    correct: 2,
+    category: "matematicas",
+    difficulty: "easy"
+  },
+  {
+    id: 663,
+    question: "En que sistema numérico usamos 10 díxitos?",
+    answers: ["Binario", "Octal", "Decimal", "Hexadecimal"],
+    correct: 2,
+    category: "matematicas",
+    difficulty: "easy"
+  },
+  {
+    id: 664,
+    question: "Cal é o resultado de 2³?",
+    answers: ["6", "8", "9", "12"],
+    correct: 1,
+    category: "matematicas",
+    difficulty: "medium"
+  },
+  {
+    id: 665,
+    question: "Cantos graos ten un círculo completo?",
+    answers: ["180", "270", "360", "450"],
+    correct: 2,
+    category: "matematicas",
+    difficulty: "easy"
+  },
+  {
+    id: 666,
+    question: "Cal é o valor de 0! (factorial de 0)?",
+    answers: ["0", "1", "Non está definido", "Infinito"],
+    correct: 1,
+    category: "matematicas",
+    difficulty: "hard"
+  },
+
+  // Xeometría
+  {
+    id: 667,
+    question: "Cantos lados ten un triángulo?",
+    answers: ["2", "3", "4", "5"],
+    correct: 1,
+    category: "matematicas",
+    difficulty: "easy"
+  },
+  {
+    id: 668,
+    question: "Cal é a área dun cadrado de lado 5?",
+    answers: ["20", "25", "30", "35"],
+    correct: 1,
+    category: "matematicas",
+    difficulty: "medium"
+  },
+  {
+    id: 669,
+    question: "Cantos ángulos ten un hexágono?",
+    answers: ["5", "6", "7", "8"],
+    correct: 1,
+    category: "matematicas",
+    difficulty: "medium"
+  },
+  {
+    id: 670,
+    question: "Cal é a fórmula da área dun círculo?",
+    answers: ["πr", "πr²", "2πr", "πd"],
+    correct: 1,
+    category: "matematicas",
+    difficulty: "medium"
+  },
+  {
+    id: 671,
+    question: "Que tipo de triángulo ten todos os lados iguais?",
+    answers: ["Isósceles", "Escaleno", "Equilátero", "Rectángulo"],
+    correct: 2,
+    category: "matematicas",
+    difficulty: "medium"
+  },
+  {
+    id: 672,
+    question: "Cal é o teorema que relaciona os lados dun triángulo rectángulo?",
+    answers: ["Teorema de Tales", "Teorema de Pitágoras", "Teorema de Fermat", "Teorema de Euclides"],
+    correct: 1,
+    category: "matematicas",
+    difficulty: "medium"
+  },
+  {
+    id: 673,
+    question: "Cantos graos suman os ángulos interiores dun triángulo?",
+    answers: ["90", "180", "270", "360"],
+    correct: 1,
+    category: "matematicas",
+    difficulty: "medium"
+  },
+  {
+    id: 674,
+    question: "Cal é o perímetro dun rectángulo de 4×6?",
+    answers: ["20", "24", "28", "32"],
+    correct: 0,
+    category: "matematicas",
+    difficulty: "medium"
+  },
+  {
+    id: 675,
+    question: "Que nome recibe un polígono de 8 lados?",
+    answers: ["Heptágono", "Octógono", "Nonágono", "Decágono"],
+    correct: 1,
+    category: "matematicas",
+    difficulty: "medium"
+  },
+  {
+    id: 676,
+    question: "Cal é o volume dun cubo de lado 3?",
+    answers: ["9", "18", "27", "36"],
+    correct: 2,
+    category: "matematicas",
+    difficulty: "medium"
+  },
+
+  // Álxebra
+  {
+    id: 677,
+    question: "Se x + 5 = 12, cal é o valor de x?",
+    answers: ["5", "6", "7", "8"],
+    correct: 2,
+    category: "matematicas",
+    difficulty: "medium"
+  },
+  {
+    id: 678,
+    question: "Cal é o resultado de (a + b)²?",
+    answers: ["a² + b²", "a² + 2ab + b²", "a² - b²", "2ab"],
+    correct: 1,
+    category: "matematicas",
+    difficulty: "hard"
+  },
+  {
+    id: 679,
+    question: "Se 2x = 16, cal é o valor de x?",
+    answers: ["6", "7", "8", "9"],
+    correct: 2,
+    category: "matematicas",
+    difficulty: "medium"
+  },
+  {
+    id: 680,
+    question: "Cal é a pendente dunha liña horizontal?",
+    answers: ["-1", "0", "1", "Infinito"],
+    correct: 1,
+    category: "matematicas",
+    difficulty: "medium"
+  },
+  {
+    id: 681,
+    question: "Se y = 3x + 2, cal é y cando x = 4?",
+    answers: ["12", "14", "16", "18"],
+    correct: 1,
+    category: "matematicas",
+    difficulty: "medium"
+  },
+  {
+    id: 682,
+    question: "Cal é a forma xeral dunha ecuación cadrada?",
+    answers: ["ax + b = 0", "ax² + bx + c = 0", "x² = a", "x + y = c"],
+    correct: 1,
+    category: "matematicas",
+    difficulty: "hard"
+  },
+  {
+    id: 683,
+    question: "Se 3x - 7 = 14, cal é x?",
+    answers: ["5", "6", "7", "8"],
+    correct: 2,
+    category: "matematicas",
+    difficulty: "medium"
+  },
+  {
+    id: 684,
+    question: "Cal é o discriminante de ax² + bx + c = 0?",
+    answers: ["b² - 4ac", "b² + 4ac", "4ac - b²", "b - 4ac"],
+    correct: 0,
+    category: "matematicas",
+    difficulty: "hard"
+  },
+  {
+    id: 685,
+    question: "Se log₁₀(100) = x, cal é x?",
+    answers: ["1", "2", "10", "100"],
+    correct: 1,
+    category: "matematicas",
+    difficulty: "hard"
+  },
+  {
+    id: 686,
+    question: "Cal é o valor de e (número de Euler) aproximadamente?",
+    answers: ["2.71", "3.14", "1.41", "1.61"],
+    correct: 0,
+    category: "matematicas",
+    difficulty: "hard"
+  },
+
+  // Física básica
+  {
+    id: 687,
+    question: "Cal é a unidade de forza no Sistema Internacional?",
+    answers: ["Joule", "Newton", "Pascal", "Watt"],
+    correct: 1,
+    category: "fisica",
+    difficulty: "medium"
+  },
+  {
+    id: 688,
+    question: "Cal é a velocidade da luz no baleiro?",
+    answers: ["300.000 km/s", "150.000 km/s", "450.000 km/s", "600.000 km/s"],
+    correct: 0,
+    category: "fisica",
+    difficulty: "medium"
+  },
+  {
+    id: 689,
+    question: "Quen formulou as leis do movemento?",
+    answers: ["Einstein", "Newton", "Galileo", "Kepler"],
+    correct: 1,
+    category: "fisica",
+    difficulty: "medium"
+  },
+  {
+    id: 690,
+    question: "Cal é a aceleración debido á gravidade na Terra?",
+    answers: ["8.8 m/s²", "9.8 m/s²", "10.8 m/s²", "11.8 m/s²"],
+    correct: 1,
+    category: "fisica",
+    difficulty: "medium"
+  },
+  {
+    id: 691,
+    question: "Que lei establece que 'a toda acción corresponde unha reacción igual e oposta'?",
+    answers: ["Primera lei de Newton", "Segunda lei de Newton", "Terceira lei de Newton", "Lei de gravidade"],
+    correct: 2,
+    category: "fisica",
+    difficulty: "medium"
+  },
+  {
+    id: 692,
+    question: "Cal é a unidade de enerxía?",
+    answers: ["Newton", "Joule", "Watt", "Pascal"],
+    correct: 1,
+    category: "fisica",
+    difficulty: "medium"
+  },
+  {
+    id: 693,
+    question: "A que temperatura ferve a auga ao nivel do mar?",
+    answers: ["90°C", "95°C", "100°C", "105°C"],
+    correct: 2,
+    category: "fisica",
+    difficulty: "easy"
+  },
+  {
+    id: 694,
+    question: "Cal é a fórmula da enerxía cinética?",
+    answers: ["E = mc²", "E = ½mv²", "E = mgh", "E = Pt"],
+    correct: 1,
+    category: "fisica",
+    difficulty: "medium"
+  },
+  {
+    id: 695,
+    question: "Que tipo de onda é a luz?",
+    answers: ["Mecánica", "Electromagnética", "Sonora", "Gravitacional"],
+    correct: 1,
+    category: "fisica",
+    difficulty: "medium"
+  },
+  {
+    id: 696,
+    question: "Cal é a unidade de resistencia eléctrica?",
+    answers: ["Ampere", "Volt", "Ohm", "Watt"],
+    correct: 2,
+    category: "fisica",
+    difficulty: "medium"
+  },
+
+  // Mecánica
+  {
+    id: 697,
+    question: "Se un obxecto cae libremente, como cambia a súa velocidade?",
+    answers: ["Permanece constante", "Aumenta uniformemente", "Diminúe uniformemente", "Aumenta exponencialmente"],
+    correct: 1,
+    category: "fisica",
+    difficulty: "medium"
+  },
+  {
+    id: 698,
+    question: "Cal é a fórmula da velocidade?",
+    answers: ["v = d/t", "v = at", "v = d×t", "v = a/t"],
+    correct: 0,
+    category: "fisica",
+    difficulty: "easy"
+  },
+  {
+    id: 699,
+    question: "Que principio explica por que flotan os barcos?",
+    answers: ["Principio de Pascal", "Principio de Arquímedes", "Principio de Bernoulli", "Principio de Torricelli"],
+    correct: 1,
+    category: "fisica",
+    difficulty: "medium"
+  },
+  {
+    id: 700,
+    question: "Cal é a primeira lei de Newton?",
+    answers: ["F = ma", "Lei da inercia", "Acción e reacción", "Lei da gravidade"],
+    correct: 1,
+    category: "fisica",
+    difficulty: "medium"
+  },
+  {
+    id: 701,
+    question: "Se duplicamos a masa dun obxecto, como afecta á súa inercia?",
+    answers: ["Redúcese á metade", "Permanece igual", "Duplícase", "Cuadruplícase"],
+    correct: 2,
+    category: "fisica",
+    difficulty: "medium"
+  },
+  {
+    id: 702,
+    question: "Cal é a unidade de momento (momentum)?",
+    answers: ["kg⋅m/s", "N⋅s", "Ambas son correctas", "kg⋅m/s²"],
+    correct: 2,
+    category: "fisica",
+    difficulty: "hard"
+  },
+  {
+    id: 703,
+    question: "Que conserva na colisión elástica?",
+    answers: ["Só a enerxía", "Só o momento", "Enerxía e momento", "Nin enerxía nin momento"],
+    correct: 2,
+    category: "fisica",
+    difficulty: "hard"
+  },
+  {
+    id: 704,
+    question: "Cal é a fórmula do traballo mecánico?",
+    answers: ["W = F⋅d", "W = F/d", "W = md", "W = Fv"],
+    correct: 0,
+    category: "fisica",
+    difficulty: "medium"
+  },
+  {
+    id: 705,
+    question: "Que mide o dinamómetro?",
+    answers: ["Masa", "Peso", "Volume", "Densidade"],
+    correct: 1,
+    category: "fisica",
+    difficulty: "medium"
+  },
+  {
+    id: 706,
+    question: "Cal é a relación entre peso e masa?",
+    answers: ["P = m/g", "P = mg", "P = m + g", "P = m - g"],
+    correct: 1,
+    category: "fisica",
+    difficulty: "medium"
+  },
+
+  // Termodinámica
+  {
+    id: 707,
+    question: "Cal é o cero absoluto?",
+    answers: ["-273°C", "-100°C", "0°C", "100°C"],
+    correct: 0,
+    category: "fisica",
+    difficulty: "medium"
+  },
+  {
+    id: 708,
+    question: "Que establece a primeira lei da termodinámica?",
+    answers: ["Conservación da enerxía", "Entropía sempre aumenta", "Calor flúe do quente ao frío", "Movemento molecular"],
+    correct: 0,
+    category: "fisica",
+    difficulty: "hard"
+  },
+  {
+    id: 709,
+    question: "Cal é a unidade de temperatura no SI?",
+    answers: ["Celsius", "Fahrenheit", "Kelvin", "Rankine"],
+    correct: 2,
+    category: "fisica",
+    difficulty: "medium"
+  },
+  {
+    id: 710,
+    question: "Como se transmite o calor no baleiro?",
+    answers: ["Condución", "Convección", "Radiación", "Non se transmite"],
+    correct: 2,
+    category: "fisica",
+    difficulty: "medium"
+  },
+  {
+    id: 711,
+    question: "Que sucede coa temperatura durante un cambio de estado?",
+    answers: ["Aumenta", "Diminúe", "Permanece constante", "Depende da presión"],
+    correct: 2,
+    category: "fisica",
+    difficulty: "medium"
+  },
+  {
+    id: 712,
+    question: "Cal é o calor específico da auga?",
+    answers: ["1 cal/g°C", "2 cal/g°C", "0.5 cal/g°C", "4 cal/g°C"],
+    correct: 0,
+    category: "fisica",
+    difficulty: "hard"
+  },
+  {
+    id: 713,
+    question: "Que gas constitúe a maior parte da atmosfera?",
+    answers: ["Osíxeno", "Nitróxeno", "Argon", "Dióxido de carbono"],
+    correct: 1,
+    category: "fisica",
+    difficulty: "medium"
+  },
+  {
+    id: 714,
+    question: "Cal é a presión atmosférica estándar?",
+    answers: ["760 mmHg", "780 mmHg", "740 mmHg", "800 mmHg"],
+    correct: 0,
+    category: "fisica",
+    difficulty: "medium"
+  },
+  {
+    id: 715,
+    question: "Que sucede co volume dun gas cando aumenta a temperatura (a presión constante)?",
+    answers: ["Diminúe", "Aumenta", "Permanece igual", "Depende do gas"],
+    correct: 1,
+    category: "fisica",
+    difficulty: "medium"
+  },
+  {
+    id: 716,
+    question: "Cal é a ecuación dos gases ideais?",
+    answers: ["PV = nRT", "PV = RT", "P + V = nRT", "PV = nT"],
+    correct: 0,
+    category: "fisica",
+    difficulty: "hard"
+  },
+
+  // Electricidade
+  {
+    id: 717,
+    question: "Cal é a lei de Ohm?",
+    answers: ["V = IR", "V = I/R", "V = I + R", "V = I - R"],
+    correct: 0,
+    category: "fisica",
+    difficulty: "medium"
+  },
+  {
+    id: 718,
+    question: "Cal é a unidade de corrente eléctrica?",
+    answers: ["Volt", "Ohm", "Ampere", "Watt"],
+    correct: 2,
+    category: "fisica",
+    difficulty: "easy"
+  },
+  {
+    id: 719,
+    question: "Que partícula transporta a corrente eléctrica nos metais?",
+    answers: ["Protóns", "Neutróns", "Electróns", "Ións"],
+    correct: 2,
+    category: "fisica",
+    difficulty: "medium"
+  },
+  {
+    id: 720,
+    question: "Cal é a unidade de potencia eléctrica?",
+    answers: ["Joule", "Volt", "Ampere", "Watt"],
+    correct: 3,
+    category: "fisica",
+    difficulty: "medium"
+  },
+  {
+    id: 721,
+    question: "Que sucede coa resistencia total en circuíto en serie?",
+    answers: ["Diminúe", "Aumenta", "Permanece igual", "Depende da voltaxe"],
+    correct: 1,
+    category: "fisica",
+    difficulty: "medium"
+  },
+  {
+    id: 722,
+    question: "Cal é a fórmula da potencia eléctrica?",
+    answers: ["P = VI", "P = V/I", "P = V + I", "P = V - I"],
+    correct: 0,
+    category: "fisica",
+    difficulty: "medium"
+  },
+  {
+    id: 723,
+    question: "Que material é un bo condutor eléctrico?",
+    answers: ["Plástico", "Madeira", "Cobre", "Vidro"],
+    correct: 2,
+    category: "fisica",
+    difficulty: "easy"
+  },
+  {
+    id: 724,
+    question: "Cal é a carga dun electrón?",
+    answers: ["1.6 × 10⁻¹⁹ C", "-1.6 × 10⁻¹⁹ C", "1.6 × 10¹⁹ C", "0 C"],
+    correct: 1,
+    category: "fisica",
+    difficulty: "hard"
+  },
+  {
+    id: 725,
+    question: "Que tipo de corrente usan as nosas casas?",
+    answers: ["Corrente continua", "Corrente alterna", "Corrente mixta", "Corrente estática"],
+    correct: 1,
+    category: "fisica",
+    difficulty: "medium"
+  },
+  {
+    id: 726,
+    question: "Cal é a frecuencia da corrente alterna en Europa?",
+    answers: ["50 Hz", "60 Hz", "100 Hz", "120 Hz"],
+    correct: 0,
+    category: "fisica",
+    difficulty: "medium"
+  },
+
+  // Óptica e ondas
+  {
+    id: 727,
+    question: "Cal é a velocidade do son no aire?",
+    answers: ["330 m/s", "340 m/s", "350 m/s", "360 m/s"],
+    correct: 1,
+    category: "fisica",
+    difficulty: "medium"
+  },
+  {
+    id: 728,
+    question: "Que sucede coa luz cando pasa dun medio a outro?",
+    answers: ["Refléctese", "Refráctase", "Absorvese", "Todas as anteriores"],
+    correct: 3,
+    category: "fisica",
+    difficulty: "medium"
+  },
+  {
+    id: 729,
+    question: "Cal é a ecuación da onda?",
+    answers: ["v = fλ", "v = f/λ", "v = f + λ", "v = f - λ"],
+    correct: 0,
+    category: "fisica",
+    difficulty: "medium"
+  },
+  {
+    id: 730,
+    question: "Que cor ten a maior frecuencia no espectro visible?",
+    answers: ["Vermello", "Azul", "Verde", "Violeta"],
+    correct: 3,
+    category: "fisica",
+    difficulty: "medium"
+  },
+  {
+    id: 731,
+    question: "Cal é a lei da reflexión?",
+    answers: ["Ángulo de incidencia = ángulo de reflexión", "Ángulo de incidencia > ángulo de reflexión", "Ángulo de incidencia < ángulo de reflexión", "Non hai relación"],
+    correct: 0,
+    category: "fisica",
+    difficulty: "medium"
+  },
+  {
+    id: 732,
+    question: "Que lente corrixe a miopía?",
+    answers: ["Convexa", "Cóncava", "Cilíndrica", "Prismática"],
+    correct: 1,
+    category: "fisica",
+    difficulty: "medium"
+  },
+  {
+    id: 733,
+    question: "Cal é o fenómeno que explica por que o ceo é azul?",
+    answers: ["Reflexión", "Refracción", "Dispersión de Rayleigh", "Interferencia"],
+    correct: 2,
+    category: "fisica",
+    difficulty: "hard"
+  },
+  {
+    id: 734,
+    question: "Que tipo de espello usa un telescopio reflector?",
+    answers: ["Convexo", "Cóncavo", "Plano", "Cilíndrico"],
+    correct: 1,
+    category: "fisica",
+    difficulty: "medium"
+  },
+  {
+    id: 735,
+    question: "Cal é a frecuencia dunha onda de 2 metros de lonxitude a 340 m/s?",
+    answers: ["170 Hz", "680 Hz", "85 Hz", "340 Hz"],
+    correct: 0,
+    category: "fisica",
+    difficulty: "hard"
+  },
+  {
+    id: 736,
+    question: "Que fenómeno produce o arco da vella?",
+    answers: ["Reflexión", "Refracción", "Dispersión", "Todas as anteriores"],
+    correct: 3,
+    category: "fisica",
+    difficulty: "medium"
+  },
+
+  // Física moderna
+  {
+    id: 737,
+    question: "Quen propuxo a teoría da relatividade?",
+    answers: ["Newton", "Einstein", "Bohr", "Planck"],
+    correct: 1,
+    category: "fisica",
+    difficulty: "easy"
+  },
+  {
+    id: 738,
+    question: "Cal é a ecuación máis famosa de Einstein?",
+    answers: ["E = mc²", "F = ma", "E = hf", "p = mv"],
+    correct: 0,
+    category: "fisica",
+    difficulty: "easy"
+  },
+  {
+    id: 739,
+    question: "Que partícula ten carga positiva no núcleo?",
+    answers: ["Electrón", "Neutrón", "Protón", "Positrón"],
+    correct: 2,
+    category: "fisica",
+    difficulty: "easy"
+  },
+  {
+    id: 740,
+    question: "Cal é o principio de incertidume de Heisenberg?",
+    answers: ["Non se pode medir exactamente posición e momento simultaneamente", "A enerxía consérvase", "A luz é onda e partícula", "O tempo é relativo"],
+    correct: 0,
+    category: "fisica",
+    difficulty: "hard"
+  },
+  {
+    id: 741,
+    question: "Que forza mantén unido o núcleo atómico?",
+    answers: ["Electromagnética", "Gravitacional", "Nuclear forte", "Nuclear débil"],
+    correct: 2,
+    category: "fisica",
+    difficulty: "hard"
+  },
+  {
+    id: 742,
+    question: "Cal é a constante de Planck aproximadamente?",
+    answers: ["6.63 × 10⁻³⁴ J⋅s", "6.63 × 10³⁴ J⋅s", "3.14 × 10⁻³⁴ J⋅s", "1.38 × 10⁻²³ J⋅s"],
+    correct: 0,
+    category: "fisica",
+    difficulty: "hard"
+  },
+  {
+    id: 743,
+    question: "Que partícula é o fotón?",
+    answers: ["Partícula de luz", "Partícula de son", "Partícula de masa", "Partícula de carga"],
+    correct: 0,
+    category: "fisica",
+    difficulty: "medium"
+  },
+  {
+    id: 744,
+    question: "Cal é a idade aproximada do universo?",
+    answers: ["4.5 mil millóns de anos", "13.8 mil millóns de anos", "20 mil millóns de anos", "100 mil millóns de anos"],
+    correct: 1,
+    category: "fisica",
+    difficulty: "medium"
+  },
+  {
+    id: 745,
+    question: "Que teoría explica a gravidade como curvatura do espazo-tempo?",
+    answers: ["Mecánica newtoniana", "Relatividade especial", "Relatividade xeral", "Mecánica cuántica"],
+    correct: 2,
+    category: "fisica",
+    difficulty: "hard"
+  },
+  {
+    id: 746,
+    question: "Cal é a temperatura da radiación cósmica de fondo?",
+    answers: ["2.7 K", "273 K", "0 K", "100 K"],
+    correct: 0,
+    category: "fisica",
+    difficulty: "hard"
+  },
+
+  // Matemáticas avanzadas
+  {
+    id: 747,
+    question: "Cal é a derivada de x²?",
+    answers: ["x", "2x", "x²", "2x²"],
+    correct: 1,
+    category: "matematicas",
+    difficulty: "hard"
+  },
+  {
+    id: 748,
+    question: "Cal é a integral de 2x?",
+    answers: ["x²", "x² + C", "2", "2x + C"],
+    correct: 1,
+    category: "matematicas",
+    difficulty: "hard"
+  },
+  {
+    id: 749,
+    question: "Que é un número primo?",
+    answers: ["Divisible só por 1 e por si mesmo", "Número par", "Número impar", "Número negativo"],
+    correct: 0,
+    category: "matematicas",
+    difficulty: "medium"
+  },
+  {
+    id: 750,
+    question: "Cal é o primeiro número primo?",
+    answers: ["1", "2", "3", "5"],
+    correct: 1,
+    category: "matematicas",
+    difficulty: "medium"
+  },
+  {
+    id: 751,
+    question: "Que representa i en números complexos?",
+    answers: ["√(-1)", "√1", "∞", "0"],
+    correct: 0,
+    category: "matematicas",
+    difficulty: "hard"
+  },
+  {
+    id: 752,
+    question: "Cal é o valor de sen(90°)?",
+    answers: ["0", "1", "-1", "1/2"],
+    correct: 1,
+    category: "matematicas",
+    difficulty: "medium"
+  },
+  {
+    id: 753,
+    question: "Cal é o valor de cos(0°)?",
+    answers: ["0", "1", "-1", "1/2"],
+    correct: 1,
+    category: "matematicas",
+    difficulty: "medium"
+  },
+  {
+    id: 754,
+    question: "Que é unha matriz identidade?",
+    answers: ["Todos os elementos son 1", "Diagonal principal 1, resto 0", "Todos os elementos son 0", "Matriz cadrada"],
+    correct: 1,
+    category: "matematicas",
+    difficulty: "hard"
+  },
+  {
+    id: 755,
+    question: "Cal é a suma da serie 1 + 1/2 + 1/4 + 1/8 + ...?",
+    answers: ["1", "2", "∞", "1/2"],
+    correct: 1,
+    category: "matematicas",
+    difficulty: "hard"
+  },
+  {
+    id: 756,
+    question: "Que é o número aúreo (phi)?",
+    answers: ["1.414", "1.618", "2.718", "3.141"],
+    correct: 1,
+    category: "matematicas",
+    difficulty: "hard"
+  },
+
+  // === PREGUNTAS DE XEOGRAFÍA GALEGA (IDs 757-856) ===
+  // Provincias e capitais
+  {
+    id: 757,
+    question: "Cal é a capital da provincia de Pontevedra?",
+    answers: ["Vigo", "Pontevedra", "Ourense", "Redondela"],
+    correct: 1,
+    category: "xeografia_galega",
+    difficulty: "easy"
+  },
+  {
+    id: 758,
+    question: "Cantas provincias ten Galicia?",
+    answers: ["3", "4", "5", "6"],
+    correct: 1,
+    category: "xeografia_galega", 
+    difficulty: "easy"
+  },
+  {
+    id: 759,
+    question: "Cal é a provincia máis poboada de Galicia?",
+    answers: ["A Coruña", "Pontevedra", "Lugo", "Ourense"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+  {
+    id: 760,
+    question: "En que provincia está o concello de Ribadeo?",
+    answers: ["A Coruña", "Lugo", "Pontevedra", "Ourense"],
+    correct: 1,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+  {
+    id: 761,
+    question: "Cal é a provincia menos extensa de Galicia?",
+    answers: ["Ourense", "Lugo", "Pontevedra", "A Coruña"],
+    correct: 2,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+
+  // Concellos importantes
+  {
+    id: 762,
+    question: "Cal é o concello máis poboado de Galicia?",
+    answers: ["A Coruña", "Vigo", "Santiago", "Ourense"],
+    correct: 1,
+    category: "xeografia_galega",
+    difficulty: "easy"
+  },
+  {
+    id: 763,
+    question: "En que concello está o Cabo Fisterra?",
+    answers: ["Fisterra", "Muxía", "Corcubión", "Cee"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+  {
+    id: 764,
+    question: "Cal é o concello onde está a Catedral de Santiago?",
+    answers: ["Santiago de Compostela", "Padrón", "Arzúa", "Melide"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "easy"
+  },
+  {
+    id: 765,
+    question: "En que provincia está Verín?",
+    answers: ["Lugo", "Ourense", "Pontevedra", "A Coruña"],
+    correct: 1,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+  {
+    id: 766,
+    question: "Cal é o concello onde está o Castro de Viladonga?",
+    answers: ["Castro de Rei", "Lugo", "Mondoñedo", "Viveiro"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "hard"
+  },
+  {
+    id: 767,
+    question: "En que concello está a Praia das Catedrais?",
+    answers: ["Viveiro", "Ribadeo", "Foz", "Burela"],
+    correct: 1,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+  {
+    id: 768,
+    question: "Cal é o concello máis oriental de Galicia?",
+    answers: ["A Pobra de Trives", "Verín", "Calvos de Randín", "Cualedro"],
+    correct: 2,
+    category: "xeografia_galega",
+    difficulty: "hard"
+  },
+  {
+    id: 769,
+    question: "En que concello está o Parque Nacional das Illas Atlánticas?",
+    answers: ["Vigo", "Cangas", "Bueu", "Varios"],
+    correct: 3,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+  {
+    id: 770,
+    question: "Cal é o concello onde está As Burgas?",
+    answers: ["Ourense", "Verín", "Xinzo de Limia", "Celanova"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "easy"
+  },
+  {
+    id: 771,
+    question: "En que concello está o Mosteiro de Oseira?",
+    answers: ["Cea", "San Cristovo de Cea", "Piñor", "Maside"],
+    correct: 1,
+    category: "xeografia_galega",
+    difficulty: "hard"
+  },
+
+  // Comarcas
+  {
+    id: 772,
+    question: "Cal é a comarca onde está Santiago de Compostela?",
+    answers: ["Santiago", "Sar", "Terra de Santiago", "Compostela"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+  {
+    id: 773,
+    question: "A que comarca pertence Viveiro?",
+    answers: ["A Mariña Occidental", "A Mariña Oriental", "Terra Chá", "Ortegal"],
+    correct: 1,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+  {
+    id: 774,
+    question: "Cal é a comarca do Barbanza?",
+    answers: ["Barbanza", "Noia", "Muros", "Costa da Morte"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+  {
+    id: 775,
+    question: "A que comarca pertence Monforte de Lemos?",
+    answers: ["Terra de Lemos", "Chantada", "Sarria", "Quiroga"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+  {
+    id: 776,
+    question: "Cal é a comarca máis setentrional de Galicia?",
+    answers: ["Ortegal", "A Mariña Oriental", "Terra Chá", "Eume"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "hard"
+  },
+  {
+    id: 777,
+    question: "A que comarca pertence Celanova?",
+    answers: ["Terra de Celanova", "Limia", "Allariz - Maceda", "Viana"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+  {
+    id: 778,
+    question: "Cal é a comarca de Pontedeume?",
+    answers: ["Eume", "Ferrol", "Ortegal", "Betanzos"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+  {
+    id: 779,
+    question: "A que comarca pertence Tui?",
+    answers: ["Baixo Miño", "O Condado", "Vigo", "O Rosal"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+  {
+    id: 780,
+    question: "Cal é a comarca de Xinzo de Limia?",
+    answers: ["Limia", "Terra de Celanova", "Viana", "Verín"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+  {
+    id: 781,
+    question: "A que comarca pertence Padrón?",
+    answers: ["Sar", "Santiago", "Caldas", "Tabeirós"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+
+  // Parroquias históricas
+  {
+    id: 782,
+    question: "Como se chama a parroquia onde está o centro de Vigo?",
+    answers: ["Santa María de Vigo", "San Pedro de Vigo", "Santiago de Vigo", "San Miguel de Vigo"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "hard"
+  },
+  {
+    id: 783,
+    question: "Cal é a parroquia onde está o centro histórico da Coruña?",
+    answers: ["Santa María", "San Nicolás", "Santiago", "San Jorge"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "hard"
+  },
+  {
+    id: 784,
+    question: "Como se chama a parroquia céntrica de Pontevedra?",
+    answers: ["Santa María a Maior", "San Bartolomeu", "São Sebastião", "San Pedro"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "hard"
+  },
+  {
+    id: 785,
+    question: "Cal é a parroquia onde está a Catedral de Ourense?",
+    answers: ["Santa María Nai", "San Martiño", "Santa Eufemia", "San Pedro"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "hard"
+  },
+  {
+    id: 786,
+    question: "Como se chama a parroquia onde está a Catedral de Santiago?",
+    answers: ["San Fiz de Solovio", "Santa María Salomé", "Santiago", "San Martín Pinario"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "hard"
+  },
+
+  // Xeografía física e límites
+  {
+    id: 787,
+    question: "Cal é o concello máis occidental de Galicia?",
+    answers: ["Fisterra", "Muxía", "Camariñas", "Laxe"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+  {
+    id: 788,
+    question: "Que concello está máis ao norte en Galicia?",
+    answers: ["Ortigueira", "Cariño", "Cedeira", "Mañón"],
+    correct: 1,
+    category: "xeografia_galega",
+    difficulty: "hard"
+  },
+  {
+    id: 789,
+    question: "Cal é o concello máis meridional de Galicia?",
+    answers: ["Tui", "O Rosal", "A Guarda", "Oia"],
+    correct: 3,
+    category: "xeografia_galega",
+    difficulty: "hard"
+  },
+  {
+    id: 790,
+    question: "En que concello está o Monte Pindo?",
+    answers: ["Carnota", "Mazaricos", "Dumbría", "Muros"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+  {
+    id: 791,
+    question: "Cal é o concello onde está o Parque Natural do Invernadeiro?",
+    answers: ["Vilariño de Conso", "Entrimo", "Lobios", "Muíños"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "hard"
+  },
+
+  // Concellos costeiros
+  {
+    id: 792,
+    question: "Cal destes concellos NON ten costa?",
+    answers: ["Noia", "Arzúa", "Muros", "Porto do Son"],
+    correct: 1,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+  {
+    id: 793,
+    question: "En que concello están as Illas Cíes?",
+    answers: ["Vigo", "Cangas", "Baiona", "Nigrán"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "easy"
+  },
+  {
+    id: 794,
+    question: "Cal é o concello onde está a Illa de Arousa?",
+    answers: ["A Illa de Arousa", "Vilanova de Arousa", "Vilagarcía", "Cambados"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+  {
+    id: 795,
+    question: "En que concello está a praia de Silgar?",
+    answers: ["Sanxenxo", "O Grove", "Poio", "Marín"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+  {
+    id: 796,
+    question: "Cal é o concello onde está Cabo Vilán?",
+    answers: ["Camariñas", "Muxía", "Fisterra", "Vimianzo"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+
+  // Concellos de interior
+  {
+    id: 797,
+    question: "En que concello está o Mosteiro de Sobrado dos Monxes?",
+    answers: ["Sobrado", "Curtis", "Vilasantar", "Guitiriz"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+  {
+    id: 798,
+    question: "Cal é o concello onde está Allariz?",
+    answers: ["Allariz", "Xunqueira de Espadanedo", "Taboadela", "Rairiz de Veiga"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "easy"
+  },
+  {
+    id: 799,
+    question: "En que concello está Portomarín?",
+    answers: ["Portomarín", "Paradela", "Guntín", "Lugo"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "easy"
+  },
+  {
+    id: 800,
+    question: "Cal é o concello onde está Mondoñedo?",
+    answers: ["Mondoñedo", "Abadín", "Pastoriza", "Begonte"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "easy"
+  },
+
+  // Ríos e xeografía hidrográfica por concellos
+  {
+    id: 801,
+    question: "En que concello desemboca o río Miño?",
+    answers: ["A Guarda", "Tui", "O Rosal", "Goián"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+  {
+    id: 802,
+    question: "Por que concello pasa o río Ulla antes de desembocar?",
+    answers: ["Catoira", "Rianxo", "Dodro", "Padrón"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+  {
+    id: 803,
+    question: "En que concello está a nacente do río Tambre?",
+    answers: ["Sobrado", "Aranga", "Irixoa", "Curtis"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "hard"
+  },
+  {
+    id: 804,
+    question: "Que concello atravesa o río Lérez?",
+    answers: ["Pontevedra", "Marín", "Poio", "Barro"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+  {
+    id: 805,
+    question: "En que concello está a confluencia do Miño co Sil?",
+    answers: ["Os Peares", "Carballedo", "Chantada", "Sober"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "hard"
+  },
+
+  // Patrimonio por concellos
+  {
+    id: 806,
+    question: "En que concello está a Torre de Hércules?",
+    answers: ["A Coruña", "Oleiros", "Sada", "Arteixo"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "easy"
+  },
+  {
+    id: 807,
+    question: "Cal é o concello onde está o Mosteiro de Samos?",
+    answers: ["Samos", "Sarria", "Triacastela", "O Incio"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+  {
+    id: 808,
+    question: "En que concello está a Muralla Romana de Lugo?",
+    answers: ["Lugo", "Outeiro de Rei", "Guntín", "Friol"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "easy"
+  },
+  {
+    id: 809,
+    question: "Cal é o concello onde está o Castro de Santa Tegra?",
+    answers: ["A Guarda", "O Rosal", "Tui", "Oia"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+  {
+    id: 810,
+    question: "En que concello está o Pazo de Oca?",
+    answers: ["A Estrada", "Silleda", "Vila de Cruces", "Dozón"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+
+  // Feiras e festivais por concellos
+  {
+    id: 811,
+    question: "En que concello se celebra a Festa do Marisco?",
+    answers: ["O Grove", "Sanxenxo", "Cambados", "A Illa de Arousa"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+  {
+    id: 812,
+    question: "Cal é o concello da Festa da Empanada?",
+    answers: ["Bandeira", "Xinzo de Limia", "Verín", "Allariz"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+  {
+    id: 813,
+    question: "En que concello se celebra a Festa do Albariño?",
+    answers: ["Cambados", "O Grove", "Meaño", "Meis"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+  {
+    id: 814,
+    question: "Cal é o concello do Festival de Ortigueira?",
+    answers: ["Ortigueira", "Cedeira", "Cariño", "Mañón"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "easy"
+  },
+  {
+    id: 815,
+    question: "En que concello se celebra a Festa da Istoria?",
+    answers: ["Ribadavia", "Allariz", "Betanzos", "Noia"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+
+  // Denominacións de orixe por concellos
+  {
+    id: 816,
+    question: "En que concello se produce principalmente o Ribeiro?",
+    answers: ["Ribadavia", "Carballeda de Avia", "Leiro", "Beade"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+  {
+    id: 817,
+    question: "Cal é o principal concello productor de Albariño?",
+    answers: ["Cambados", "O Grove", "Sanxenxo", "Meaño"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+  {
+    id: 818,
+    question: "En que concello se elabora principalmente a Tetilla?",
+    answers: ["Arzúa", "Curtis", "Melide", "Santiso"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+  {
+    id: 819,
+    question: "Cal é un concello da D.O. Monterrei?",
+    answers: ["Verín", "Laza", "Xinzo de Limia", "Allariz"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+  {
+    id: 820,
+    question: "En que concello está o centro da D.O. Valdeorras?",
+    answers: ["O Barco de Valdeorras", "Rubiá", "Petín", "A Rúa"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+
+  // Camiño de Santiago por concellos
+  {
+    id: 821,
+    question: "Cal é o primeiro concello galego do Camiño Francés?",
+    answers: ["O Cebreiro", "Pedrafita do Cebreiro", "Triacastela", "Samos"],
+    correct: 1,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+  {
+    id: 822,
+    question: "En que concello está Astorga no Camiño?",
+    answers: ["Non está en Galicia", "Lugo", "Ourense", "León"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "easy"
+  },
+  {
+    id: 823,
+    question: "Cal é o concello onde está Melide no Camiño?",
+    answers: ["Melide", "Arzúa", "Santiso", "Sobrado"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "easy"
+  },
+  {
+    id: 824,
+    question: "En que concello está Sarria, inicio dos últimos 100 km?",
+    answers: ["Sarria", "Paradela", "Portomarín", "Lugo"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "easy"
+  },
+  {
+    id: 825,
+    question: "Cal é o último concello antes de Santiago no Camiño Francés?",
+    answers: ["Arzúa", "O Pino", "Santiago", "Melide"],
+    correct: 1,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+
+  // Concellos curiosos e datos específicos
+  {
+    id: 826,
+    question: "Cal é o concello galego con menor poboación?",
+    answers: ["Baleira", "Chandrexa de Queixa", "Vilar de Barrio", "Carballeda de Valdeorras"],
+    correct: 1,
+    category: "xeografia_galega",
+    difficulty: "hard"
+  },
+  {
+    id: 827,
+    question: "Cal é o concello máis extenso de Galicia?",
+    answers: ["Lugo", "Ourense", "A Coruña", "Vigo"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+  {
+    id: 828,
+    question: "En que concello está a vila máis alta de Galicia?",
+    answers: ["Trevinca", "A Veiga", "Chandrexa de Queixa", "Puebla de Trives"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "hard"
+  },
+  {
+    id: 829,
+    question: "Cal é o concello onde está a maior fábrica de Inditex?",
+    answers: ["Arteixo", "A Coruña", "Narón", "Ferrol"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+  {
+    id: 830,
+    question: "En que concello está a central nuclear de Trillo? (pregunta trampa)",
+    answers: ["Non está en Galicia", "Ourense", "Lugo", "A Coruña"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+
+  // Límites administrativos
+  {
+    id: 831,
+    question: "Que concello fai fronteira con Portugal?",
+    answers: ["Tui", "Lobios", "Entrimo", "Todos os anteriores"],
+    correct: 3,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+  {
+    id: 832,
+    question: "Cal é o concello que fai fronteira con Asturias?",
+    answers: ["Ribadeo", "A Pontenova", "Negueira de Muñiz", "Todos os anteriores"],
+    correct: 3,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+  {
+    id: 833,
+    question: "Que concello de Ourense fai fronteira con León?",
+    answers: ["A Veiga", "Chandrexa de Queixa", "Sandiás", "Viana do Bolo"],
+    correct: 3,
+    category: "xeografia_galega",
+    difficulty: "hard"
+  },
+  {
+    id: 834,
+    question: "Cal é o concello que fai fronteira con Zamora?",
+    answers: ["Hermisende", "Lubián", "Non hai", "Porto"],
+    correct: 2,
+    category: "xeografia_galega",
+    difficulty: "hard"
+  },
+  {
+    id: 835,
+    question: "Que concello está máis preto de Castela e León?",
+    answers: ["As Neves", "Cualedro", "Viana do Bolo", "A Veiga"],
+    correct: 2,
+    category: "xeografia_galega",
+    difficulty: "hard"
+  },
+
+  // Últimas preguntas variadas
+  {
+    id: 836,
+    question: "En que concello está o aeroporto de Lavacolla?",
+    answers: ["Santiago", "Arzúa", "O Pino", "Boqueixón"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+  {
+    id: 837,
+    question: "Cal é o concello onde está o aeroporto de Peinador?",
+    answers: ["Vigo", "Mos", "Redondela", "Porriño"],
+    correct: 1,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+  {
+    id: 838,
+    question: "En que concello está Cedeira?",
+    answers: ["Cedeira", "Ortigueira", "Cariño", "Mañón"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "easy"
+  },
+  {
+    id: 839,
+    question: "Cal é o concello onde está Noia?",
+    answers: ["Noia", "Porto do Son", "Lousame", "Muros"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "easy"
+  },
+  {
+    id: 840,
+    question: "En que concello está Betanzos?",
+    answers: ["Betanzos", "Paderne", "Oza-Cesuras", "Curtis"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "easy"
+  },
+  {
+    id: 841,
+    question: "Cal é o concello de Carballo?",
+    answers: ["Carballo", "Ponteceso", "Laracha", "Arteixo"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "easy"
+  },
+  {
+    id: 842,
+    question: "En que concello está Cangas?",
+    answers: ["Cangas", "Moaña", "Bueu", "Marín"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "easy"
+  },
+  {
+    id: 843,
+    question: "Cal é o concello onde está Redondela?",
+    answers: ["Redondela", "Mos", "Porriño", "Vigo"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "easy"
+  },
+  {
+    id: 844,
+    question: "En que concello está Lalín?",
+    answers: ["Lalín", "Silleda", "A Estrada", "Vila de Cruces"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "easy"
+  },
+  {
+    id: 845,
+    question: "Cal é o concello onde está Xinzo de Limia?",
+    answers: ["Xinzo de Limia", "Sandiás", "Trasmiras", "Rairiz de Veiga"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "easy"
+  },
+  {
+    id: 846,
+    question: "En que concello está Ribeira?",
+    answers: ["Ribeira", "Porto do Son", "A Pobra do Caramiñal", "Boiro"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "easy"
+  },
+  {
+    id: 847,
+    question: "Cal é o concello onde está Marín?",
+    answers: ["Marín", "Pontevedra", "Poio", "Bueu"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "easy"
+  },
+  {
+    id: 848,
+    question: "En que concello está Vilagarcía de Arousa?",
+    answers: ["Vilagarcía de Arousa", "Vilanova de Arousa", "Catoira", "Caldas de Reis"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "easy"
+  },
+  {
+    id: 849,
+    question: "Cal é o concello onde está Narón?",
+    answers: ["Narón", "Ferrol", "Valdoviño", "Moeche"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "easy"
+  },
+  {
+    id: 850,
+    question: "En que concello está Ponteareas?",
+    answers: ["Ponteareas", "Salvaterra de Miño", "As Neves", "Mondariz"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "easy"
+  },
+  {
+    id: 851,
+    question: "Cal é o concello onde está Barbanza?",
+    answers: ["Non existe ese concello", "Ribeira", "A Pobra do Caramiñal", "Boiro"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+  {
+    id: 852,
+    question: "En que concello está Caldas de Reis?",
+    answers: ["Caldas de Reis", "Ponteareas", "Cuntis", "Catoira"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "easy"
+  },
+  {
+    id: 853,
+    question: "Cal é o concello máis pequeno en extensión?",
+    answers: ["Oza-Cesuras", "As Neves", "Carral", "O Porriño"],
+    correct: 1,
+    category: "xeografia_galega",
+    difficulty: "hard"
+  },
+  {
+    id: 854,
+    question: "En que concello está a Universidade de Vigo campus de Ourense?",
+    answers: ["Ourense", "Barbadás", "Pereiro de Aguiar", "San Cibrao das Viñas"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+  {
+    id: 855,
+    question: "Cal é o concello onde está a Tecnópole de Galicia?",
+    answers: ["San Cibrao das Viñas", "Ourense", "Barbadás", "Pereiro de Aguiar"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "hard"
+  },
+  {
+    id: 856,
+    question: "En que concello está o Porto Exterior de Ferrol?",
+    answers: ["Ferrol", "Narón", "Ares", "Mugardos"],
+    correct: 0,
+    category: "xeografia_galega",
+    difficulty: "medium"
+  },
+
+  // === PREGUNTAS DE TELEVISIÓN GALEGA EXTENDED (IDs 857-956) ===
+  // Actores e actrices galegos
+  {
+    id: 857,
+    question: "Quen é o actor galego protagonista de 'Mar de fondo'?",
+    answers: ["Xosé Manuel Olveira", "Miguel de Lira", "Roberto Vidal Bolaño", "Marcos Pereiro"],
+    correct: 0,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 858,
+    question: "Cal é a actriz protagonista de 'Pratos combinados'?",
+    answers: ["María Vázquez", "Ledicia Sola", "Mercedes Sampietro", "María Pujalte"],
+    correct: 1,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 859,
+    question: "Quen interpreta a Maruxa en 'A familia Peleteiro'?",
+    answers: ["Carmen Pardo", "Concha Velasco", "María Vidal", "Esperanza Roy"],
+    correct: 0,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 860,
+    question: "Cal é o actor que deu vida a 'Fíkir'?",
+    answers: ["Pepe Rubianes", "Paco Tous", "Roberto Vidal Bolaño", "Xosé Manuel Olveira"],
+    correct: 2,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 861,
+    question: "Quen é a actriz protagonista de 'Contrapartida'?",
+    answers: ["Mercedes Sampietro", "Carmela Arias", "María Vázquez", "Ana Fernández"],
+    correct: 1,
+    category: "tv_galega_extended",
+    difficulty: "hard"
+  },
+
+  // Series e programas clásicos
+  {
+    id: 862,
+    question: "Cal era o nome da serie sobre unha familia de Santiago?",
+    answers: ["A familia Peleteiro", "Os Peleteiro", "Casa de familia", "Familias de Santiago"],
+    correct: 0,
+    category: "tv_galega_extended",
+    difficulty: "easy"
+  },
+  {
+    id: 863,
+    question: "Como se chamaba a serie de médicos da TVG?",
+    answers: ["Hospital central", "Mar de fondo", "Médicos de Vigo", "Urxencias"],
+    correct: 1,
+    category: "tv_galega_extended",
+    difficulty: "easy"
+  },
+  {
+    id: 864,
+    question: "Cal era o nome da serie cómica de Pepe Rubianes?",
+    answers: ["Mareas vivas", "Fíkir", "Pratos combinados", "Rías Baixas"],
+    correct: 1,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 865,
+    question: "Como se chamaba a serie de televisión sobre xornalistas?",
+    answers: ["Redacción", "Contrapartida", "Informativos", "Prensa galega"],
+    correct: 1,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 866,
+    question: "Cal era o nome da serie sobre un instituto?",
+    answers: ["Aula 7", "Compañeiros", "Instituto galego", "Estudantes"],
+    correct: 1,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+
+  // Presentadores históricos
+  {
+    id: 867,
+    question: "Quen presentaba 'A revista'?",
+    answers: ["Loli Barrio", "Ana García", "Mercedes Milá", "Carmen Soto Viqueira"],
+    correct: 3,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 868,
+    question: "Cal era o presentador de 'Luar'?",
+    answers: ["Xosé Ramón Gayoso", "Miguel Anxo Murado", "Marcos Pereiro", "Carlos Blanco"],
+    correct: 0,
+    category: "tv_galega_extended",
+    difficulty: "easy"
+  },
+  {
+    id: 869,
+    question: "Quen presentaba os informativos na TVG nos anos 90?",
+    answers: ["Monica Casal", "Ana Pastor", "Mónica López", "Carmen Soto Viqueira"],
+    correct: 0,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 870,
+    question: "Cal era o presentador de 'Terra a terra'?",
+    answers: ["Xurxo Souto", "Miguel Anxo Murado", "Carlos Blanco", "Xosé Ramón Gayoso"],
+    correct: 0,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 871,
+    question: "Quen presentaba 'Código cero'?",
+    answers: ["Marcos Pereiro", "Miguel de Lira", "Carlos Blanco", "Xosé Ramón Gayoso"],
+    correct: 0,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+
+  // Programas musicais
+  {
+    id: 872,
+    question: "Como se chamaba o programa musical dos domingos?",
+    answers: ["Luar", "Concerto", "Música galega", "Domingo musical"],
+    correct: 0,
+    category: "tv_galega_extended",
+    difficulty: "easy"
+  },
+  {
+    id: 873,
+    question: "Cal era o nome do programa de folk galego?",
+    answers: ["Follas novas", "Folk galego", "Tradicións", "Música popular"],
+    correct: 0,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 874,
+    question: "Como se chamaba o concurso de cantantes novos?",
+    answers: ["Voces novas", "Novos talentos", "Cantautores", "Festival de Benidorm"],
+    correct: 0,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 875,
+    question: "Cal era o programa de música clásica da TVG?",
+    answers: ["Clásicos", "Concerto", "Música culta", "Sinfónica"],
+    correct: 1,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 876,
+    question: "Como se chamaba o programa de música rock?",
+    answers: ["Rock galego", "Decibélios", "Heavy metal", "Música moderna"],
+    correct: 1,
+    category: "tv_galega_extended",
+    difficulty: "hard"
+  },
+
+  // Cantantes e grupos en TV
+  {
+    id: 877,
+    question: "Que grupo galego actuou moitas veces en 'Luar'?",
+    answers: ["Os Resentidos", "Siniestro Total", "Heredeiros da Crus", "Todos os anteriores"],
+    correct: 3,
+    category: "tv_galega_extended",
+    difficulty: "easy"
+  },
+  {
+    id: 878,
+    question: "Cal é o cantautor galego máis invitado aos programas da TVG?",
+    answers: ["Amancio Prada", "Luis Eduardo Aute", "Fuxan os Ventos", "Emilio Cao"],
+    correct: 0,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 879,
+    question: "Que cantante interpretou o tema de 'Mareas vivas'?",
+    answers: ["Luz Casal", "María Xosé Silvar", "Christina Rosenvinge", "Uxía"],
+    correct: 1,
+    category: "tv_galega_extended",
+    difficulty: "hard"
+  },
+  {
+    id: 880,
+    question: "Cal é a cantante que máis veces actuou en 'Luar'?",
+    answers: ["Uxía", "Mercedes Peón", "Cristina Pato", "María Xosé Silvar"],
+    correct: 0,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 881,
+    question: "Que grupo de rock galego saíu en programas da TVG?",
+    answers: ["Siniestro Total", "Los Suaves", "Heredeiros da Crus", "Todos os anteriores"],
+    correct: 3,
+    category: "tv_galega_extended",
+    difficulty: "easy"
+  },
+
+  // Programas infantís
+  {
+    id: 882,
+    question: "Como se chamaba o programa infantil matinal?",
+    answers: ["Xabarín", "Pequenos", "Nenos TV", "Infancia"],
+    correct: 0,
+    category: "tv_galega_extended",
+    difficulty: "easy"
+  },
+  {
+    id: 883,
+    question: "Cal era a mascota de 'Xabarín'?",
+    answers: ["Xabarín", "Rato Xan", "Pepe", "Xoán"],
+    correct: 0,
+    category: "tv_galega_extended",
+    difficulty: "easy"
+  },
+  {
+    id: 884,
+    question: "Quen era o presentador principal de 'Xabarín'?",
+    answers: ["Marcos Pereiro", "Xosé Ramón Gayoso", "Miguel de Lira", "Carlos Blanco"],
+    correct: 0,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 885,
+    question: "Como se chamaba o programa de debuxos animados galegos?",
+    answers: ["Megatrix", "Xabarín Club", "Debuxos galegos", "Animación TVG"],
+    correct: 1,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 886,
+    question: "Cal era o nome do concurso infantil da TVG?",
+    answers: ["Pequenos xénios", "Nenos sabios", "Quiz infantil", "Xoguetes"],
+    correct: 0,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+
+  // Programas deportivos
+  {
+    id: 887,
+    question: "Como se chama o programa deportivo da TVG?",
+    answers: ["Galicia Deporte", "Deportes TVG", "Galicia Sport", "Todos deportes"],
+    correct: 0,
+    category: "tv_galega_extended",
+    difficulty: "easy"
+  },
+  {
+    id: 888,
+    question: "Quen presentaba 'Galicia Deporte'?",
+    answers: ["Xurxo Souto", "Marcos Pereiro", "Miguel de Lira", "Carlos Blanco"],
+    correct: 0,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 889,
+    question: "Cal era o programa de fútbol galego?",
+    answers: ["Fútbol galego", "Liga galega", "Equipos de Galicia", "Balón galego"],
+    correct: 0,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 890,
+    question: "Como se chamaba o programa de deportes de fin de semana?",
+    answers: ["Deporte fin de semana", "Deportes do domingo", "Weekend sport", "Domingo deportivo"],
+    correct: 3,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+
+  // Documentais e culturais
+  {
+    id: 891,
+    question: "Cal era o nome do programa de documentais da natureza?",
+    answers: ["Galicia natural", "Natureza viva", "Ecoloxía", "Paisaxes"],
+    correct: 0,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 892,
+    question: "Como se chamaba o programa de historia galega?",
+    answers: ["Historia de Galicia", "Pasado galego", "Memoria", "Raíces"],
+    correct: 0,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 893,
+    question: "Cal era o programa de arte e cultura?",
+    answers: ["Arte galega", "Cultura viva", "Creación", "Galicia cultural"],
+    correct: 3,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 894,
+    question: "Como se chamaba o programa de literatura?",
+    answers: ["Letras galegas", "Literatura viva", "Libros", "Escritores"],
+    correct: 0,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 895,
+    question: "Cal era o nome do programa de arquitectura?",
+    answers: ["Pedra a pedra", "Arquitectura galega", "Construcións", "Edificios"],
+    correct: 0,
+    category: "tv_galega_extended",
+    difficulty: "hard"
+  },
+
+  // Programas de actualidade
+  {
+    id: 896,
+    question: "Como se chamaba o programa de debate político?",
+    answers: ["Galicia debate", "Política galega", "Debate TVG", "Mesa redonda"],
+    correct: 0,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 897,
+    question: "Cal era o nome do programa económico?",
+    answers: ["Economía galega", "Empresa", "Negocio", "Mercado galego"],
+    correct: 0,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 898,
+    question: "Como se chamaba o programa de consumo?",
+    answers: ["Consumo responsable", "Comprador", "Mercado", "Usuario"],
+    correct: 0,
+    category: "tv_galega_extended",
+    difficulty: "hard"
+  },
+  {
+    id: 899,
+    question: "Cal era o programa de turismo galego?",
+    answers: ["Galicia única", "Turismo", "Rutas", "Destino Galicia"],
+    correct: 0,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+
+  // Concursos e entretemento
+  {
+    id: 900,
+    question: "Como se chamaba o concurso de preguntas da TVG?",
+    answers: ["Saber e ganar", "Quiz galego", "Preguntas", "Concurso TVG"],
+    correct: 0,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 901,
+    question: "Cal era o nome do concurso musical?",
+    answers: ["Festival de Benidorm", "Concurso de música", "Cantamos", "Voces"],
+    correct: 0,
+    category: "tv_galega_extended",
+    difficulty: "hard"
+  },
+  {
+    id: 902,
+    question: "Como se chamaba o programa de humor?",
+    answers: ["Risas", "Humor galego", "Comedia", "Cachondeo"],
+    correct: 1,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 903,
+    question: "Cal era o programa de variedades da noite?",
+    answers: ["Noite galega", "Variedades", "Show nocturno", "Espectáculo"],
+    correct: 0,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+
+  // Personaxes históricos da TVG
+  {
+    id: 904,
+    question: "Quen foi o primeiro director da TVG?",
+    answers: ["Manuel Regueiro", "Xosé Ramón Gayoso", "Miguel Anxo Murado", "Carlos Blanco"],
+    correct: 0,
+    category: "tv_galega_extended",
+    difficulty: "hard"
+  },
+  {
+    id: 905,
+    question: "Cal foi a primeira presentadora da TVG?",
+    answers: ["Carmen Soto Viqueira", "Ana García", "Mónica Casal", "Mercedes Milá"],
+    correct: 0,
+    category: "tv_galega_extended",
+    difficulty: "hard"
+  },
+  {
+    id: 906,
+    question: "Quen foi o primeiro actor protagonista dunha serie da TVG?",
+    answers: ["Xosé Manuel Olveira", "Roberto Vidal Bolaño", "Miguel de Lira", "Pepe Rubianes"],
+    correct: 0,
+    category: "tv_galega_extended",
+    difficulty: "hard"
+  },
+  {
+    id: 907,
+    question: "Cal foi o primeiro cantante en actuar na TVG?",
+    answers: ["Amancio Prada", "Emilio Cao", "Fuxan os Ventos", "Non se sabe"],
+    correct: 3,
+    category: "tv_galega_extended",
+    difficulty: "hard"
+  },
+
+  // Programas especiais
+  {
+    id: 908,
+    question: "Como se chamaba o programa especial de Nadal?",
+    answers: ["Nadal galego", "Especial Nadal", "Noiteboa", "Festa de Nadal"],
+    correct: 0,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 909,
+    question: "Cal era o nome do programa de fin de ano?",
+    answers: ["Fin de ano", "Noitevella", "Despedida", "Último día"],
+    correct: 1,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 910,
+    question: "Como se chamaba o programa especial do Día das Letras Galegas?",
+    answers: ["Letras galegas", "Día das letras", "Homenaxe", "Escritores galegos"],
+    correct: 0,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 911,
+    question: "Cal era o programa especial do Día de Galicia?",
+    answers: ["Día de Galicia", "25 de xullo", "Festa nacional", "Galicia celebra"],
+    correct: 0,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+
+  // Series internacionais dobradas
+  {
+    id: 912,
+    question: "Cal foi a primeira serie estranxeira dobrada ao galego na TVG?",
+    answers: ["Dallas", "Dinastía", "Falcon Crest", "Non se dobrou ningunha"],
+    correct: 3,
+    category: "tv_galega_extended",
+    difficulty: "hard"
+  },
+  {
+    id: 913,
+    question: "Que serie de debuxos animados se dobrou ao galego?",
+    answers: ["Os Simpsons", "Dragon Ball", "Ninguna", "Todas"],
+    correct: 2,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 914,
+    question: "Cal era a política de dobraxe da TVG?",
+    answers: ["Todo en galego", "Todo subtitulado", "Orixinal", "Mixto"],
+    correct: 1,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+
+  // Programas de radio en TV
+  {
+    id: 915,
+    question: "Que programa de radio se retransmitía en TV?",
+    answers: ["Radio Galega matinal", "Ningún", "Todos", "Informativos"],
+    correct: 1,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 916,
+    question: "Cal era a relación entre Radio Galega e TVG?",
+    answers: ["Independentes", "Mesma empresa", "Colaboración", "Competencia"],
+    correct: 1,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+
+  // Audiencias e datos
+  {
+    id: 917,
+    question: "Cal foi o programa con máis audiencia da TVG?",
+    answers: ["Luar", "Informativos", "Fútbol", "Non se sabe"],
+    correct: 3,
+    category: "tv_galega_extended",
+    difficulty: "hard"
+  },
+  {
+    id: 918,
+    question: "En que ano tivo a TVG máis audiencia?",
+    answers: ["1995", "2000", "2005", "Non se sabe"],
+    correct: 3,
+    category: "tv_galega_extended",
+    difficulty: "hard"
+  },
+  {
+    id: 919,
+    question: "Cal era a audiencia media da TVG nos anos 90?",
+    answers: ["5%", "10%", "15%", "Non se sabe"],
+    correct: 3,
+    category: "tv_galega_extended",
+    difficulty: "hard"
+  },
+
+  // Tecnoloxía e produción
+  {
+    id: 920,
+    question: "En que ano comezou a emitir en cor a TVG?",
+    answers: ["1985", "1987", "1990", "Desde o principio"],
+    correct: 3,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 921,
+    question: "Onde estaban os primeiros estudos da TVG?",
+    answers: ["Santiago", "A Coruña", "Vigo", "Ourense"],
+    correct: 0,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 922,
+    question: "Cantas horas emitía a TVG ao día nos inicios?",
+    answers: ["8 horas", "12 horas", "16 horas", "24 horas"],
+    correct: 1,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 923,
+    question: "En que formato se gravaban os programas inicialmente?",
+    answers: ["Betacam", "VHS", "U-matic", "Film"],
+    correct: 2,
+    category: "tv_galega_extended",
+    difficulty: "hard"
+  },
+
+  // Colaboracións e intercambios
+  {
+    id: 924,
+    question: "Con que televisión autonómica colaboraba máis a TVG?",
+    answers: ["ETB", "TV3", "Canal Sur", "Todas por igual"],
+    correct: 1,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 925,
+    question: "Participaba a TVG en producións con outras televisións?",
+    answers: ["Si, moitas", "Algunhas veces", "Raramente", "Nunca"],
+    correct: 1,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 926,
+    question: "Que programas compartía coas outras autonómicas?",
+    answers: ["Documentais", "Series", "Informativos", "Ningún"],
+    correct: 0,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+
+  // Premios e recoñecementos
+  {
+    id: 927,
+    question: "Recibiu algún premio importante a TVG?",
+    answers: ["Si, varios", "Algún", "Poucos", "Ningún"],
+    correct: 0,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 928,
+    question: "Que programa da TVG foi máis premiado?",
+    answers: ["Luar", "Informativos", "Documentais", "Non se sabe"],
+    correct: 3,
+    category: "tv_galega_extended",
+    difficulty: "hard"
+  },
+  {
+    id: 929,
+    question: "En que festivais participaban os programas da TVG?",
+    answers: ["Festivais de TV", "Festivais de cine", "Ambos", "Ningún"],
+    correct: 2,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+
+  // Curiosidades e anécdotas
+  {
+    id: 930,
+    question: "Cal foi o primeiro erro técnico grave da TVG?",
+    answers: ["Corte de luz", "Fallo de son", "Imaxe en negro", "Non se sabe"],
+    correct: 3,
+    category: "tv_galega_extended",
+    difficulty: "hard"
+  },
+  {
+    id: 931,
+    question: "Que personaxe famoso visitou os estudos da TVG?",
+    answers: ["O Rei", "Políticos", "Artistas", "Todos os anteriores"],
+    correct: 3,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 932,
+    question: "Cal foi a entrevista máis polémica da TVG?",
+    answers: ["A políticos", "A artistas", "A empresarios", "Non se sabe"],
+    correct: 3,
+    category: "tv_galega_extended",
+    difficulty: "hard"
+  },
+  {
+    id: 933,
+    question: "Que programa causou máis controversia?",
+    answers: ["Debates políticos", "Programas culturais", "Series", "Non se sabe"],
+    correct: 3,
+    category: "tv_galega_extended",
+    difficulty: "hard"
+  },
+
+  // Evolución e cambios
+  {
+    id: 934,
+    question: "Como cambiou a programación da TVG cos anos?",
+    answers: ["Máis comercial", "Máis cultural", "Máis informativa", "Todas as anteriores"],
+    correct: 3,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 935,
+    question: "Que tipo de programas desapareceron da TVG?",
+    answers: ["Culturais", "Musicais", "Infantís", "Todos algúns"],
+    correct: 3,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 936,
+    question: "Que novos formatos incorporou a TVG?",
+    answers: ["Reality shows", "Magazines", "Talk shows", "Todos os anteriores"],
+    correct: 3,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+
+  // Programas actuais vs históricos
+  {
+    id: 937,
+    question: "Que programa actual ten máis historia na TVG?",
+    answers: ["Informativos", "Deportes", "Tempo", "Todos os anteriores"],
+    correct: 3,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 938,
+    question: "Cal foi o programa que máis tempo estivo en antena?",
+    answers: ["Luar", "Informativos", "Terra a terra", "Non se sabe"],
+    correct: 3,
+    category: "tv_galega_extended",
+    difficulty: "hard"
+  },
+  {
+    id: 939,
+    question: "Que programa se cancelou antes de tempo?",
+    answers: ["Series", "Concursos", "Documentais", "Non se sabe"],
+    correct: 3,
+    category: "tv_galega_extended",
+    difficulty: "hard"
+  },
+
+  // Influencia cultural
+  {
+    id: 940,
+    question: "Cal foi a influencia da TVG na cultura galega?",
+    answers: ["Moi grande", "Moderada", "Pequena", "Ningunha"],
+    correct: 0,
+    category: "tv_galega_extended",
+    difficulty: "easy"
+  },
+  {
+    id: 941,
+    question: "Axudou a TVG a difundir a lingua galega?",
+    answers: ["Si, moito", "Algo", "Pouco", "Nada"],
+    correct: 0,
+    category: "tv_galega_extended",
+    difficulty: "easy"
+  },
+  {
+    id: 942,
+    question: "Contribuíu a TVG ao desenvolvemento audiovisual galego?",
+    answers: ["Si, moito", "Bastante", "Algo", "Pouco"],
+    correct: 0,
+    category: "tv_galega_extended",
+    difficulty: "easy"
+  },
+  {
+    id: 943,
+    question: "Axudou a TVG a crear talentos galegos?",
+    answers: ["Si, moitos", "Algúns", "Poucos", "Ningún"],
+    correct: 0,
+    category: "tv_galega_extended",
+    difficulty: "easy"
+  },
+
+  // Futuro e perspectivas
+  {
+    id: 944,
+    question: "Cal é o futuro da televisión galega?",
+    answers: ["Dixital", "Streaming", "Híbrido", "Incerto"],
+    correct: 3,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 945,
+    question: "Que retos ten a televisión galega actual?",
+    answers: ["Competencia", "Audiencias", "Orzamentos", "Todos os anteriores"],
+    correct: 3,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 946,
+    question: "Como se adapta a TVG ás novas tecnoloxías?",
+    answers: ["Moi ben", "Ben", "Regular", "Mal"],
+    correct: 1,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+
+  // Última tanda - completar 100
+  {
+    id: 947,
+    question: "Cal é a característica principal da televisión galega?",
+    answers: ["Lingua galega", "Cultura galega", "Identidade", "Todas as anteriores"],
+    correct: 3,
+    category: "tv_galega_extended",
+    difficulty: "easy"
+  },
+  {
+    id: 948,
+    question: "Que diferencia a TVG doutras televisións autonómicas?",
+    answers: ["A lingua", "A cultura", "A identidade", "Todas as anteriores"],
+    correct: 3,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 949,
+    question: "Cal é o maior logro da televisión galega?",
+    answers: ["Normalización lingüística", "Difusión cultural", "Creación audiovisual", "Todas as anteriores"],
+    correct: 3,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 950,
+    question: "Que representa a TVG para Galicia?",
+    answers: ["Identidade", "Cultura", "Lingua", "Todas as anteriores"],
+    correct: 3,
+    category: "tv_galega_extended",
+    difficulty: "easy"
+  },
+  {
+    id: 951,
+    question: "Cal é a herdanza da televisión galega?",
+    answers: ["Profesionais formados", "Archivo audiovisual", "Cultura preservada", "Todas as anteriores"],
+    correct: 3,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 952,
+    question: "Que impacto tivo a TVG na sociedade galega?",
+    answers: ["Social", "Cultural", "Lingüístico", "Todos os anteriores"],
+    correct: 3,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 953,
+    question: "Como valoras a contribución da TVG á cultura galega?",
+    answers: ["Fundamental", "Importante", "Significativa", "Todas as anteriores"],
+    correct: 3,
+    category: "tv_galega_extended",
+    difficulty: "easy"
+  },
+  {
+    id: 954,
+    question: "Que papel xoga a TVG na Galicia actual?",
+    answers: ["Informativo", "Cultural", "Identitario", "Todos os anteriores"],
+    correct: 3,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 955,
+    question: "Cal é o valor da televisión galega para as futuras xeracións?",
+    answers: ["Histórico", "Cultural", "Lingüístico", "Todos os anteriores"],
+    correct: 3,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+  {
+    id: 956,
+    question: "Que legado deixa a televisión galega?",
+    answers: ["Archivo audiovisual", "Profesionais formados", "Cultura preservada", "Todas as anteriores"],
+    correct: 3,
+    category: "tv_galega_extended",
+    difficulty: "medium"
+  },
+
+  // === PREGUNTAS DE ESCRITORES GALEGOS E ESPAÑOIS (IDs 957-1056) ===
+  // Escritores galegos clásicos
+  {
+    id: 957,
+    question: "Quen escribiu 'Cantares galegos'?",
+    answers: ["Rosalía de Castro", "Eduardo Pondal", "Manuel Curros Enríquez", "Alfredo Brañas"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "easy"
+  },
+  {
+    id: 958,
+    question: "Cal é o autor de 'Follas novas'?",
+    answers: ["Eduardo Pondal", "Rosalía de Castro", "Manuel Curros Enríquez", "Ramón Cabanillas"],
+    correct: 1,
+    category: "escritores",
+    difficulty: "easy"
+  },
+  {
+    id: 959,
+    question: "Quen escribiu 'En las orillas del Sar'?",
+    answers: ["Rosalía de Castro", "Emilia Pardo Bazán", "Eduardo Pondal", "Concepción Arenal"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+  {
+    id: 960,
+    question: "Cal é o autor de 'Os eidos'?",
+    answers: ["Eduardo Pondal", "Manuel Curros Enríquez", "Ramón Cabanillas", "Castelao"],
+    correct: 2,
+    category: "escritores",
+    difficulty: "medium"
+  },
+  {
+    id: 961,
+    question: "Quen escribiu 'Aires da miña terra'?",
+    answers: ["Manuel Curros Enríquez", "Eduardo Pondal", "Rosalía de Castro", "Valentín Lamas Carvajal"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+
+  // Castelao e xeración Nós
+  {
+    id: 962,
+    question: "Cal é o nome real de Castelao?",
+    answers: ["Alfonso Daniel Rodríguez Castelao", "Alfonso Daniel Castelao", "Daniel Castelao", "Alfonso Castelao"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+  {
+    id: 963,
+    question: "Quen escribiu 'Sempre en Galiza'?",
+    answers: ["Castelao", "Vicente Risco", "Ramón Otero Pedrayo", "Alfonso Daniel Castelao"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "easy"
+  },
+  {
+    id: 964,
+    question: "Cal é o autor de 'Teoría do nacionalismo galego'?",
+    answers: ["Vicente Risco", "Castelao", "Ramón Otero Pedrayo", "Anxel Fole"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "hard"
+  },
+  {
+    id: 965,
+    question: "Quen escribiu 'Devalar'?",
+    answers: ["Ramón Otero Pedrayo", "Vicente Risco", "Castelao", "Anxel Fole"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+  {
+    id: 966,
+    question: "Cal é o autor de 'Terra de melancolia'?",
+    answers: ["Anxel Fole", "Vicente Risco", "Ramón Otero Pedrayo", "Castelao"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+
+  // Emilia Pardo Bazán
+  {
+    id: 967,
+    question: "Onde naceu Emilia Pardo Bazán?",
+    answers: ["A Coruña", "Santiago", "Vigo", "Ourense"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "easy"
+  },
+  {
+    id: 968,
+    question: "Cal é a obra máis famosa de Emilia Pardo Bazán?",
+    answers: ["Los Pazos de Ulloa", "La Madre Naturaleza", "Insolación", "Morriña"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "easy"
+  },
+  {
+    id: 969,
+    question: "A que corrente literaria pertence Emilia Pardo Bazán?",
+    answers: ["Naturalismo", "Realismo", "Romanticismo", "Modernismo"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+  {
+    id: 970,
+    question: "Quen escribiu 'La Madre Naturaleza'?",
+    answers: ["Emilia Pardo Bazán", "Rosalía de Castro", "Concepción Arenal", "Carmen de Burgos"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+
+  // Escritores contemporáneos galegos
+  {
+    id: 971,
+    question: "Quen escribiu 'Memorias dun neno labrego'?",
+    answers: ["Xosé Neira Vilas", "Álvaro Cunqueiro", "Manuel Rivas", "Suso de Toro"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+  {
+    id: 972,
+    question: "Cal é o autor de 'As crónicas do sochantre'?",
+    answers: ["Álvaro Cunqueiro", "Xosé Neira Vilas", "Manuel Rivas", "Carlos Casares"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+  {
+    id: 973,
+    question: "Quen escribiu 'O lapis do carpinteiro'?",
+    answers: ["Manuel Rivas", "Suso de Toro", "Álvaro Cunqueiro", "Carlos Casares"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "easy"
+  },
+  {
+    id: 974,
+    question: "Cal é o autor de 'A lingua das bolboretas'?",
+    answers: ["Manuel Rivas", "Suso de Toro", "Xosé Neira Vilas", "Carlos Casares"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+  {
+    id: 975,
+    question: "Quen escribiu 'Os outros feirantes'?",
+    answers: ["Carlos Casares", "Manuel Rivas", "Suso de Toro", "Álvaro Cunqueiro"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+
+  // Escritores españois clásicos
+  {
+    id: 976,
+    question: "Quen escribiu 'Don Quixote de la Mancha'?",
+    answers: ["Miguel de Cervantes", "Lope de Vega", "Francisco de Quevedo", "Calderón de la Barca"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "easy"
+  },
+  {
+    id: 977,
+    question: "Cal é o autor de 'La Celestina'?",
+    answers: ["Fernando de Rojas", "Jorge Manrique", "Juan del Encina", "Garcilaso de la Vega"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+  {
+    id: 978,
+    question: "Quen escribiu 'El Lazarillo de Tormes'?",
+    answers: ["Anónimo", "Miguel de Cervantes", "Francisco de Quevedo", "Mateo Alemán"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+  {
+    id: 979,
+    question: "Cal é o autor de 'Fuenteovejuna'?",
+    answers: ["Lope de Vega", "Calderón de la Barca", "Tirso de Molina", "Juan Ruiz de Alarcón"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+  {
+    id: 980,
+    question: "Quen escribiu 'El Burlador de Sevilla'?",
+    answers: ["Tirso de Molina", "Lope de Vega", "Calderón de la Barca", "Juan Ruiz de Alarcón"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+
+  // Xeración del 98
+  {
+    id: 981,
+    question: "Quen escribiu 'Niebla'?",
+    answers: ["Miguel de Unamuno", "Azorín", "Pío Baroja", "Antonio Machado"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+  {
+    id: 982,
+    question: "Cal é o autor de 'El árbol de la ciencia'?",
+    answers: ["Pío Baroja", "Miguel de Unamuno", "Azorín", "Valle-Inclán"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+  {
+    id: 983,
+    question: "Quen escribiu 'Campos de Castilla'?",
+    answers: ["Antonio Machado", "Juan Ramón Jiménez", "Miguel de Unamuno", "Azorín"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+  {
+    id: 984,
+    question: "Cal é o autor de 'Sonatas'?",
+    answers: ["Valle-Inclán", "Pío Baroja", "Miguel de Unamuno", "Azorín"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+  {
+    id: 985,
+    question: "Quen escribiu 'La voluntad'?",
+    answers: ["Azorín", "Pío Baroja", "Miguel de Unamuno", "Antonio Machado"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "hard"
+  },
+
+  // Xeración del 27
+  {
+    id: 986,
+    question: "Quen escribiu 'Romancero gitano'?",
+    answers: ["Federico García Lorca", "Rafael Alberti", "Vicente Aleixandre", "Luis Cernuda"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "easy"
+  },
+  {
+    id: 987,
+    question: "Cal é o autor de 'Marinero en tierra'?",
+    answers: ["Rafael Alberti", "Federico García Lorca", "Vicente Aleixandre", "Dámaso Alonso"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+  {
+    id: 988,
+    question: "Quen escribiu 'La destrucción o el amor'?",
+    answers: ["Vicente Aleixandre", "Luis Cernuda", "Jorge Guillén", "Gerardo Diego"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "hard"
+  },
+  {
+    id: 989,
+    question: "Cal é o autor de 'Donde habite el olvido'?",
+    answers: ["Luis Cernuda", "Vicente Aleixandre", "Rafael Alberti", "Pedro Salinas"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "hard"
+  },
+  {
+    id: 990,
+    question: "Quen escribiu 'Cántico'?",
+    answers: ["Jorge Guillén", "Pedro Salinas", "Gerardo Diego", "Dámaso Alonso"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "hard"
+  },
+
+  // Escritores contemporáneos españois
+  {
+    id: 991,
+    question: "Quen escribiu 'Tiempo de silencio'?",
+    answers: ["Luis Martín-Santos", "Juan Benet", "Juan Goytisolo", "Francisco Umbral"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+  {
+    id: 992,
+    question: "Cal é o autor de 'La colmena'?",
+    answers: ["Camilo José Cela", "Miguel Delibes", "Carmen Laforet", "Ana María Matute"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+  {
+    id: 993,
+    question: "Quen escribiu 'Cinco horas con Mario'?",
+    answers: ["Miguel Delibes", "Camilo José Cela", "Carmen Laforet", "Juan Marsé"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+  {
+    id: 994,
+    question: "Cal é o autor de 'Nada'?",
+    answers: ["Carmen Laforet", "Ana María Matute", "Carmen Martín Gaite", "Rosa Chacel"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+  {
+    id: 995,
+    question: "Quen escribiu 'Primera memoria'?",
+    answers: ["Ana María Matute", "Carmen Laforet", "Carmen Martín Gaite", "Mercè Rodoreda"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+
+  // Novela histórica e best-sellers
+  {
+    id: 996,
+    question: "Quen escribiu 'El capitán Alatriste'?",
+    answers: ["Arturo Pérez-Reverte", "Antonio Gala", "Fernando Savater", "Javier Marías"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "easy"
+  },
+  {
+    id: 997,
+    question: "Cal é o autor de 'La sombra del viento'?",
+    answers: ["Carlos Ruiz Zafón", "Arturo Pérez-Reverte", "Javier Sierra", "Matilde Asensi"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "easy"
+  },
+  {
+    id: 998,
+    question: "Quen escribiu 'Corazón tan blanco'?",
+    answers: ["Javier Marías", "Enrique Vila-Matas", "Antonio Muñoz Molina", "Juan José Millás"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+  {
+    id: 999,
+    question: "Cal é o autor de 'Soldados de Salamina'?",
+    answers: ["Javier Cercas", "Isaac Rosa", "Antonio Orejudo", "Belén Gopegui"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+  {
+    id: 1000,
+    question: "Quen escribiu 'El tiempo entre costuras'?",
+    answers: ["María Dueñas", "Julia Navarro", "Almudena Grandes", "Lucía Etxebarria"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+
+  // Poesía contemporánea galega
+  {
+    id: 1001,
+    question: "Quen escribiu 'Hai unha gota de sangue en cada palabra'?",
+    answers: ["Uxío Novoneyra", "Celso Emilio Ferreiro", "Luís Pimentel", "Xohana Torres"],
+    correct: 1,
+    category: "escritores",
+    difficulty: "hard"
+  },
+  {
+    id: 1002,
+    question: "Cal é o autor de 'Os eidos'?",
+    answers: ["Uxío Novoneyra", "Celso Emilio Ferreiro", "Manuel María", "Xohana Torres"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+  {
+    id: 1003,
+    question: "Quen escribiu 'Tempo de ría'?",
+    answers: ["Manuel María", "Uxío Novoneyra", "Celso Emilio Ferreiro", "Luís Pimentel"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+  {
+    id: 1004,
+    question: "Cal é a autora de 'Tempo de muller'?",
+    answers: ["Xohana Torres", "Luz Pozo Garza", "Pilar Pallarés", "María Xosé Queizán"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "hard"
+  },
+  {
+    id: 1005,
+    question: "Quen escribiu 'Concerto de outono'?",
+    answers: ["Luz Pozo Garza", "Xohana Torres", "Pilar Pallarés", "María Victoria Moreno"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "hard"
+  },
+
+  // Teatro galego
+  {
+    id: 1006,
+    question: "Quen escribiu 'A Santa Compaña'?",
+    answers: ["Roberto Vidal Bolaño", "Lauro Olmo", "Manuel Lourenzo", "Euloxio R. Ruibal"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+  {
+    id: 1007,
+    question: "Cal é o autor de 'Veladas indecentes'?",
+    answers: ["Manuel Lourenzo", "Roberto Vidal Bolaño", "Euloxio R. Ruibal", "Lauro Olmo"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "hard"
+  },
+  {
+    id: 1008,
+    question: "Quen escribiu 'O filandón'?",
+    answers: ["Alejandro Casona", "Lauro Olmo", "Manuel Lourenzo", "Roberto Vidal Bolaño"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+
+  // Teatro español contemporáneo
+  {
+    id: 1009,
+    question: "Quen escribiu 'Historia de una escalera'?",
+    answers: ["Antonio Buero Vallejo", "Fernando Arrabal", "Francisco Nieva", "José Luis Alonso de Santos"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+  {
+    id: 1010,
+    question: "Cal é o autor de 'Pic-nic'?",
+    answers: ["Fernando Arrabal", "Antonio Buero Vallejo", "Francisco Nieva", "Alfonso Sastre"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "hard"
+  },
+  {
+    id: 1011,
+    question: "Quen escribiu 'Marat/Sade'? (Pregunta trampa - non é español)",
+    answers: ["Non é español", "Fernando Arrabal", "Antonio Buero Vallejo", "Francisco Nieva"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+
+  // Literatura infantil e xuvenil galega
+  {
+    id: 1012,
+    question: "Quen escribiu 'Memorias dun neno labrego'?",
+    answers: ["Xosé Neira Vilas", "María Victoria Moreno", "Agustín Fernández Paz", "Fina Casalderrey"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "easy"
+  },
+  {
+    id: 1013,
+    question: "Cal é o autor de 'Cartas de inverno'?",
+    answers: ["Agustín Fernández Paz", "Xosé Neira Vilas", "María Victoria Moreno", "Fina Casalderrey"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+  {
+    id: 1014,
+    question: "Quen escribiu 'A galiña azul'?",
+    answers: ["Fina Casalderrey", "María Victoria Moreno", "Agustín Fernández Paz", "Xosé Antonio Neira Cruz"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+
+  // Ensaio galego
+  {
+    id: 1015,
+    question: "Quen escribiu 'Galicia hoy'?",
+    answers: ["Xosé Manuel Beiras", "Ramón Piñeiro", "Francisco Fernández del Riego", "Domingo García-Sabell"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "hard"
+  },
+  {
+    id: 1016,
+    question: "Cal é o autor de 'Filosofía da saudade'?",
+    answers: ["Ramón Piñeiro", "Vicente Risco", "Domingo García-Sabell", "Francisco Fernández del Riego"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "hard"
+  },
+  {
+    id: 1017,
+    question: "Quen escribiu 'Galicia como tarea'?",
+    answers: ["Francisco Fernández del Riego", "Ramón Piñeiro", "Domingo García-Sabell", "Xosé Manuel Beiras"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "hard"
+  },
+
+  // Premios e recoñecementos
+  {
+    id: 1018,
+    question: "Quen gañou o Premio Cervantes en 1989?",
+    answers: ["Camilo José Cela", "Miguel Delibes", "Francisco Umbral", "Ana María Matute"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+  {
+    id: 1019,
+    question: "Cal foi o primeiro galego en ganar o Premio Cervantes?",
+    answers: ["Camilo José Cela", "Gonzalo Torrente Ballester", "Álvaro Cunqueiro", "Emilia Pardo Bazán"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+  {
+    id: 1020,
+    question: "Quen gañou o Premio Nobel de Literatura en 1956?",
+    answers: ["Juan Ramón Jiménez", "Vicente Aleixandre", "Camilo José Cela", "José Echegaray"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+
+  // Revistas e publicacións galegas
+  {
+    id: 1021,
+    question: "Cal foi a revista máis importante da xeración Nós?",
+    answers: ["Nós", "Grial", "A Nosa Terra", "Céltiga"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+  {
+    id: 1022,
+    question: "Quen fundou a revista 'Grial'?",
+    answers: ["Ramón Piñeiro", "Vicente Risco", "Francisco Fernández del Riego", "Domingo García-Sabell"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "hard"
+  },
+  {
+    id: 1023,
+    question: "Cal é a revista cultural galega máis longeva?",
+    answers: ["Grial", "Nós", "A Nosa Terra", "Céltiga"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+
+  // Movementos literarios galegos
+  {
+    id: 1024,
+    question: "Cal foi o primeiro movemento literario galego moderno?",
+    answers: ["Rexurdimento", "Xeración Nós", "Vangarda", "Posguerra"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+  {
+    id: 1025,
+    question: "Que xeración de escritores representou a renovación dos anos 60?",
+    answers: ["Xeración dos 60", "Xeración Nós", "Xeración da Republica", "Novísimos"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+
+  // Tradución e difusión
+  {
+    id: 1026,
+    question: "Quen traduciu 'O Quixote' ao galego?",
+    answers: ["Eduardo Blanco-Amor", "Álvaro Cunqueiro", "Xosé Neira Vilas", "Manuel Rivas"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "hard"
+  },
+  {
+    id: 1027,
+    question: "Cal foi o primeiro libro traducido ao galego?",
+    answers: ["A Biblia", "O Quixote", "Hamlet", "A Ilíada"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "hard"
+  },
+
+  // Escritoras galegas contemporáneas
+  {
+    id: 1028,
+    question: "Quen escribiu 'Amor de tango'?",
+    answers: ["María Xosé Queizán", "Xohana Torres", "Luz Pozo Garza", "Pilar Pallarés"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "hard"
+  },
+  {
+    id: 1029,
+    question: "Cal é a autora de 'A muller no romance galego'?",
+    answers: ["María Xosé Queizán", "Kathleen March", "Carmen Blanco", "Dolores Vilavedra"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "hard"
+  },
+  {
+    id: 1030,
+    question: "Quen escribiu 'Os anos prohibidos'?",
+    answers: ["Xesús Gonzo", "Manuel Rivas", "Suso de Toro", "Carlos Casares"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+
+  // Literatura de viaxes e memorialística
+  {
+    id: 1031,
+    question: "Quen escribiu 'Viaxe ao país dos ananos'?",
+    answers: ["Álvaro Cunqueiro", "Eduardo Blanco-Amor", "Ramón Otero Pedrayo", "Carlos Casares"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+  {
+    id: 1032,
+    question: "Cal é o autor de 'A esmorga'?",
+    answers: ["Eduardo Blanco-Amor", "Álvaro Cunqueiro", "Carlos Casares", "Ramón Otero Pedrayo"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+
+  // Crítica literaria galega
+  {
+    id: 1033,
+    question: "Quen escribiu 'Historia da literatura galega contemporánea'?",
+    answers: ["Xesús Alonso Montero", "Ramón Piñeiro", "Francisco Fernández del Riego", "Domingo García-Sabell"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "hard"
+  },
+  {
+    id: 1034,
+    question: "Cal é o autor de 'Prosa galega'?",
+    answers: ["Ramón Piñeiro", "Xesús Alonso Montero", "Francisco Fernández del Riego", "Domingo García-Sabell"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "hard"
+  },
+
+  // Escritores galegos no exilio
+  {
+    id: 1035,
+    question: "Onde viviu Castelao durante o exilio?",
+    answers: ["Arxentina", "México", "Francia", "Uruguay"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+  {
+    id: 1036,
+    question: "Quen escribiu obras no exilio americano?",
+    answers: ["Eduardo Blanco-Amor", "Luís Seoane", "Lorenzo Varela", "Todos os anteriores"],
+    correct: 3,
+    category: "escritores",
+    difficulty: "medium"
+  },
+
+  // Novela histórica galega
+  {
+    id: 1037,
+    question: "Quen escribiu 'Bretaña, Esmeraldina'?",
+    answers: ["Xosé Luís Méndez Ferrín", "Manuel Rivas", "Suso de Toro", "Alfredo Conde"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "hard"
+  },
+  {
+    id: 1038,
+    question: "Cal é o autor de 'Arraianos'?",
+    answers: ["Alfredo Conde", "Xosé Luís Méndez Ferrín", "Manuel Rivas", "Suso de Toro"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+
+  // Literatura fantástica galega
+  {
+    id: 1039,
+    question: "Quen escribiu 'Escola de menciñeiros'?",
+    answers: ["Álvaro Cunqueiro", "Anxel Fole", "Vicente Risco", "Eduardo Blanco-Amor"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+  {
+    id: 1040,
+    question: "Cal é o autor de contos fantásticos como 'Á lus do candil'?",
+    answers: ["Anxel Fole", "Álvaro Cunqueiro", "Vicente Risco", "Eduardo Blanco-Amor"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+
+  // Últimas preguntas variadas
+  {
+    id: 1041,
+    question: "Quen escribiu 'Ensaio xeral sobre a cultura galega'?",
+    answers: ["Domingo García-Sabell", "Ramón Piñeiro", "Vicente Risco", "Francisco Fernández del Riego"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "hard"
+  },
+  {
+    id: 1042,
+    question: "Cal é o autor de 'Plenilunio'?",
+    answers: ["Antonio Muñoz Molina", "Javier Marías", "Enrique Vila-Matas", "Juan José Millás"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+  {
+    id: 1043,
+    question: "Quen escribiu 'Cabo Trafalgar'?",
+    answers: ["Arturo Pérez-Reverte", "Javier Sierra", "Matilde Asensi", "Julia Navarro"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+  {
+    id: 1044,
+    question: "Cal é a autora de 'Como agua para chocolate'? (Pregunta trampa)",
+    answers: ["Non é española", "Laura Esquivel", "Isabel Allende", "Marcela Serrano"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+  {
+    id: 1045,
+    question: "Quen escribiu 'El nombre de la rosa'? (Pregunta trampa)",
+    answers: ["Non é español", "Umberto Eco", "Arturo Pérez-Reverte", "Carlos Ruiz Zafón"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "easy"
+  },
+  {
+    id: 1046,
+    question: "Cal é o autor de 'Beatus ille'?",
+    answers: ["Antonio Muñoz Molina", "Javier Marías", "Enrique Vila-Matas", "Juan José Millás"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "hard"
+  },
+  {
+    id: 1047,
+    question: "Quen escribiu 'El jinete polaco'?",
+    answers: ["Antonio Muñoz Molina", "Javier Marías", "Enrique Vila-Matas", "Juan José Millás"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+  {
+    id: 1048,
+    question: "Cal é o autor de 'Bartleby y compañía'?",
+    answers: ["Enrique Vila-Matas", "Javier Marías", "Antonio Muñoz Molina", "Juan José Millás"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+  {
+    id: 1049,
+    question: "Quen escribiu 'Mañana en la batalla piensa en mí'?",
+    answers: ["Javier Marías", "Enrique Vila-Matas", "Antonio Muñoz Molina", "Juan José Millás"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+  {
+    id: 1050,
+    question: "Cal é o autor de 'Papel mojado'?",
+    answers: ["Juan José Millás", "Javier Marías", "Enrique Vila-Matas", "Antonio Muñoz Molina"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "hard"
+  },
+  {
+    id: 1051,
+    question: "Quen escribiu 'Inés y la alegría'?",
+    answers: ["Almudena Grandes", "Julia Navarro", "María Dueñas", "Lucía Etxebarria"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+  {
+    id: 1052,
+    question: "Cal é a autora de 'Dime quién soy'?",
+    answers: ["Julia Navarro", "Almudena Grandes", "María Dueñas", "Lucía Etxebarria"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+  {
+    id: 1053,
+    question: "Quen escribiu 'Las hijas del capitán'?",
+    answers: ["María Dueñas", "Julia Navarro", "Almudena Grandes", "Lucía Etxebarria"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+  {
+    id: 1054,
+    question: "Cal é o autor de 'Patria'?",
+    answers: ["Fernando Aramburu", "Javier Cercas", "Isaac Rosa", "Antonio Orejudo"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "easy"
+  },
+  {
+    id: 1055,
+    question: "Quen escribiu 'Aquitania'?",
+    answers: ["Eva García Sáenz de Urturi", "Dolores Redondo", "Rosa Ribas", "Lorenzo Silva"],
+    correct: 0,
+    category: "escritores",
+    difficulty: "medium"
+  },
+  {
+    id: 1056,
+    question: "Cal é o maior legado dos escritores galegos e españois?",
+    answers: ["A lingua e cultura preservadas", "A literatura universal", "A identidade nacional", "Todas as anteriores"],
+    correct: 3,
+    category: "escritores",
+    difficulty: "easy"
+  },
+
+  // === PREGUNTAS DE POLÍTICA E SOCIEDADE (IDs 1057-1156) ===
+  // Historia política de Galicia
+  {
+    id: 1057,
+    question: "Cando se aprobou o Estatuto de Autonomía de Galicia?",
+    answers: ["1979", "1980", "1981", "1982"],
+    correct: 2,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+  {
+    id: 1058,
+    question: "Quen foi o primeiro presidente da Xunta de Galicia?",
+    answers: ["Gerardo Fernández Albor", "Manuel Fraga", "Emilio Pérez Touriño", "Fernando González Laxe"],
+    correct: 0,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+  {
+    id: 1059,
+    question: "En que ano se celebraron as primeiras eleccións autonómicas galegas?",
+    answers: ["1979", "1981", "1983", "1985"],
+    correct: 1,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+  {
+    id: 1060,
+    question: "Cantos presidentes da Xunta tivo Galicia ata 2020?",
+    answers: ["4", "5", "6", "7"],
+    correct: 2,
+    category: "politica_sociedade",
+    difficulty: "hard"
+  },
+  {
+    id: 1061,
+    question: "Quen foi o presidente da Xunta con máis tempo no cargo?",
+    answers: ["Manuel Fraga", "Emilio Pérez Touriño", "Alberto Núñez Feijóo", "Gerardo Fernández Albor"],
+    correct: 2,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+
+  // Partidos políticos galegos
+  {
+    id: 1062,
+    question: "Cal é o partido político galego máis antigo?",
+    answers: ["BNG", "PSdeG", "PPdeG", "Partido Galeguista"],
+    correct: 3,
+    category: "politica_sociedade",
+    difficulty: "hard"
+  },
+  {
+    id: 1063,
+    question: "Que significan as siglas BNG?",
+    answers: ["Bloque Nacional Galego", "Bloque Nacionalista Galego", "Bloque Nacional de Galicia", "Bloque Novo Galego"],
+    correct: 1,
+    category: "politica_sociedade",
+    difficulty: "easy"
+  },
+  {
+    id: 1064,
+    question: "Quen fundou o Partido Galeguista?",
+    answers: ["Castelao", "Vicente Risco", "Ramón Otero Pedrayo", "Varios nacionalistas"],
+    correct: 3,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+  {
+    id: 1065,
+    question: "Cal foi o primeiro partido en conseguir maioría absoluta na Xunta?",
+    answers: ["AP/PP", "PSdeG", "BNG", "CDS"],
+    correct: 0,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+  {
+    id: 1066,
+    question: "Cando se creou o BNG?",
+    answers: ["1975", "1982", "1987", "1992"],
+    correct: 2,
+    category: "politica_sociedade",
+    difficulty: "hard"
+  },
+
+  // Institucións galegas
+  {
+    id: 1067,
+    question: "Onde ten a súa sede o Parlamento de Galicia?",
+    answers: ["Santiago de Compostela", "A Coruña", "Vigo", "Ourense"],
+    correct: 0,
+    category: "politica_sociedade",
+    difficulty: "easy"
+  },
+  {
+    id: 1068,
+    question: "Cantos deputados ten o Parlamento de Galicia?",
+    answers: ["71", "75", "80", "85"],
+    correct: 1,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+  {
+    id: 1069,
+    question: "Cal é a sede da Xunta de Galicia?",
+    answers: ["Pazo de Raxoi", "Pazo de San Caetano", "Pazo de Miraflores", "Pazo da Moncloa"],
+    correct: 0,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+  {
+    id: 1070,
+    question: "Que institución galega vela pola defensa dos dereitos dos cidadáns?",
+    answers: ["Valedor do Pobo", "Consello de Contas", "Consello Consultivo", "Consello da Cultura Galega"],
+    correct: 0,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+  {
+    id: 1071,
+    question: "Cal é a función do Consello de Contas de Galicia?",
+    answers: ["Control orzamentario", "Asesoramento xurídico", "Promoción cultural", "Defensa de dereitos"],
+    correct: 0,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+
+  // Competencias autonómicas
+  {
+    id: 1072,
+    question: "Cal destas competencias NON ten a Xunta de Galicia?",
+    answers: ["Educación", "Sanidade", "Defensa", "Cultura"],
+    correct: 2,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+  {
+    id: 1073,
+    question: "Quen xestiona a sanidade pública en Galicia?",
+    answers: ["SERGAS", "SAS", "SESPA", "SALUD"],
+    correct: 0,
+    category: "politica_sociedade",
+    difficulty: "easy"
+  },
+  {
+    id: 1074,
+    question: "Cal é o nome do sistema educativo galego?",
+    answers: ["Sistema Educativo de Galicia", "Educación Galega", "Consellería de Educación", "Non ten nome específico"],
+    correct: 3,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+  {
+    id: 1075,
+    question: "Que institución se encarga da promoción da lingua galega?",
+    answers: ["Real Academia Galega", "Consello da Cultura Galega", "Secretaría Xeral de Política Lingüística", "Instituto da Lingua Galega"],
+    correct: 2,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+
+  // Historia política española
+  {
+    id: 1076,
+    question: "Cando se aprobou a Constitución española actual?",
+    answers: ["1976", "1978", "1979", "1981"],
+    correct: 1,
+    category: "politica_sociedade",
+    difficulty: "easy"
+  },
+  {
+    id: 1077,
+    question: "Quen foi o primeiro presidente do Goberno democrático tras Franco?",
+    answers: ["Adolfo Suárez", "Leopoldo Calvo-Sotelo", "Felipe González", "José María Aznar"],
+    correct: 0,
+    category: "politica_sociedade",
+    difficulty: "easy"
+  },
+  {
+    id: 1078,
+    question: "En que ano se produciu o intento de golpe de estado do 23-F?",
+    answers: ["1979", "1981", "1982", "1983"],
+    correct: 1,
+    category: "politica_sociedade",
+    difficulty: "easy"
+  },
+  {
+    id: 1079,
+    question: "Cando ingresou España na CEE (actual UE)?",
+    answers: ["1982", "1984", "1986", "1988"],
+    correct: 2,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+  {
+    id: 1080,
+    question: "Quen foi o presidente do Goberno español máis tempo no cargo?",
+    answers: ["Felipe González", "José María Aznar", "Mariano Rajoy", "Pedro Sánchez"],
+    correct: 0,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+
+  // Sistema político español
+  {
+    id: 1081,
+    question: "Cal é o nome oficial do Estado español?",
+    answers: ["España", "Reino de España", "Estado Español", "Monarquía Española"],
+    correct: 1,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+  {
+    id: 1082,
+    question: "Cantas comunidades autónomas ten España?",
+    answers: ["15", "17", "19", "21"],
+    correct: 1,
+    category: "politica_sociedade",
+    difficulty: "easy"
+  },
+  {
+    id: 1083,
+    question: "Cal é o parlamento bicameral español?",
+    answers: ["Cortes Xerais", "Congreso e Senado", "Parlamento Español", "Asemblea Nacional"],
+    correct: 1,
+    category: "politica_sociedade",
+    difficulty: "easy"
+  },
+  {
+    id: 1084,
+    question: "Cantos deputados ten o Congreso español?",
+    answers: ["300", "350", "400", "450"],
+    correct: 1,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+  {
+    id: 1085,
+    question: "Cal é a duración do mandato parlamentario en España?",
+    answers: ["3 anos", "4 anos", "5 anos", "6 anos"],
+    correct: 1,
+    category: "politica_sociedade",
+    difficulty: "easy"
+  },
+
+  // Partidos políticos españois
+  {
+    id: 1086,
+    question: "Cal é o partido político español máis antigo en activo?",
+    answers: ["PSOE", "PP", "PCE", "PNV"],
+    correct: 0,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+  {
+    id: 1087,
+    question: "Cando se fundou o PSOE?",
+    answers: ["1875", "1879", "1881", "1888"],
+    correct: 1,
+    category: "politica_sociedade",
+    difficulty: "hard"
+  },
+  {
+    id: 1088,
+    question: "Que partido sucedeu a Alianza Popular?",
+    answers: ["PP", "Ciudadanos", "UCD", "CDS"],
+    correct: 0,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+  {
+    id: 1089,
+    question: "Cando se creou Podemos?",
+    answers: ["2012", "2014", "2015", "2016"],
+    correct: 1,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+  {
+    id: 1090,
+    question: "Quen fundou Ciudadanos?",
+    answers: ["Albert Rivera", "Inés Arrimadas", "Carlos Carrizosa", "Un grupo de intelectuais"],
+    correct: 3,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+
+  // Reis e monarquía
+  {
+    id: 1091,
+    question: "Quen é o actual rei de España?",
+    answers: ["Juan Carlos I", "Felipe VI", "Alfonso XIII", "Felipe V"],
+    correct: 1,
+    category: "politica_sociedade",
+    difficulty: "easy"
+  },
+  {
+    id: 1092,
+    question: "Cando abdicou Juan Carlos I?",
+    answers: ["2012", "2013", "2014", "2015"],
+    correct: 2,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+  {
+    id: 1093,
+    question: "Cal é o nome completo de Felipe VI?",
+    answers: ["Felipe Juan Pablo Alfonso", "Felipe de Borbón y Grecia", "Felipe Juan Carlos Alfonso", "Felipe de Todos los Santos"],
+    correct: 0,
+    category: "politica_sociedade",
+    difficulty: "hard"
+  },
+  {
+    id: 1094,
+    question: "Cando foi coroado Felipe VI?",
+    answers: ["2013", "2014", "2015", "2016"],
+    correct: 1,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+
+  // Sociedade galega
+  {
+    id: 1095,
+    question: "Cal é a poboación aproximada de Galicia?",
+    answers: ["2,5 millóns", "2,7 millóns", "3 millóns", "3,2 millóns"],
+    correct: 1,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+  {
+    id: 1096,
+    question: "Cal é o principal problema demográfico de Galicia?",
+    answers: ["Envellecemento", "Emigración", "Baixa natalidade", "Todos os anteriores"],
+    correct: 3,
+    category: "politica_sociedade",
+    difficulty: "easy"
+  },
+  {
+    id: 1097,
+    question: "Cal é a provincia galega con maior densidade de poboación?",
+    answers: ["A Coruña", "Pontevedra", "Lugo", "Ourense"],
+    correct: 1,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+  {
+    id: 1098,
+    question: "Que porcentaxe da poboación galega vive en zonas rurais?",
+    answers: ["30%", "40%", "50%", "60%"],
+    correct: 2,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+  {
+    id: 1099,
+    question: "Cal é a idade media da poboación galega?",
+    answers: ["42 anos", "46 anos", "48 anos", "52 anos"],
+    correct: 2,
+    category: "politica_sociedade",
+    difficulty: "hard"
+  },
+
+  // Lingua galega na sociedade
+  {
+    id: 1100,
+    question: "Que porcentaxe da poboación galega fala galego habitualmente?",
+    answers: ["40%", "50%", "60%", "70%"],
+    correct: 1,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+  {
+    id: 1101,
+    question: "En que ámbitos se usa máis o galego?",
+    answers: ["Rural e familiar", "Urbano e profesional", "Educativo e cultural", "Todos por igual"],
+    correct: 0,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+  {
+    id: 1102,
+    question: "Cal é o estatus oficial do galego en Galicia?",
+    answers: ["Lingua oficial", "Lingua cooficial", "Lingua propia", "Todas as anteriores"],
+    correct: 3,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+  {
+    id: 1103,
+    question: "Cando se aprobou a Lei de Normalización Lingüística?",
+    answers: ["1981", "1983", "1985", "1987"],
+    correct: 1,
+    category: "politica_sociedade",
+    difficulty: "hard"
+  },
+
+  // Economía galega
+  {
+    id: 1104,
+    question: "Cal é o sector económico máis importante en Galicia?",
+    answers: ["Primario", "Secundario", "Terciario", "Todos por igual"],
+    correct: 2,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+  {
+    id: 1105,
+    question: "Que empresa galega é líder mundial en téxtil?",
+    answers: ["Inditex", "Textil Santanderina", "Adolfo Domínguez", "Purificación García"],
+    correct: 0,
+    category: "politica_sociedade",
+    difficulty: "easy"
+  },
+  {
+    id: 1106,
+    question: "Cal é o principal porto galego?",
+    answers: ["Vigo", "A Coruña", "Ferrol", "Marín"],
+    correct: 0,
+    category: "politica_sociedade",
+    difficulty: "easy"
+  },
+  {
+    id: 1107,
+    question: "Que porcentaxe do PIB español representa Galicia?",
+    answers: ["4%", "5%", "6%", "7%"],
+    correct: 1,
+    category: "politica_sociedade",
+    difficulty: "hard"
+  },
+
+  // Problemas sociais
+  {
+    id: 1108,
+    question: "Cal é a taxa de desemprego aproximada en Galicia?",
+    answers: ["10%", "12%", "15%", "18%"],
+    correct: 1,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+  {
+    id: 1109,
+    question: "Cal é o principal reto demográfico de Galicia?",
+    answers: ["Emigración xuvenil", "Baixa natalidade", "Envellecemento", "Todos os anteriores"],
+    correct: 3,
+    category: "politica_sociedade",
+    difficulty: "easy"
+  },
+  {
+    id: 1110,
+    question: "Que problema afecta máis ás zonas rurais galegas?",
+    answers: ["Despoblamento", "Falta de servizos", "Envellecemento", "Todos os anteriores"],
+    correct: 3,
+    category: "politica_sociedade",
+    difficulty: "easy"
+  },
+
+  // Cultura política
+  {
+    id: 1111,
+    question: "Cal é o día oficial de Galicia?",
+    answers: ["17 de maio", "25 de xullo", "15 de setembro", "6 de decembro"],
+    correct: 1,
+    category: "politica_sociedade",
+    difficulty: "easy"
+  },
+  {
+    id: 1112,
+    question: "Que se celebra o Día das Letras Galegas?",
+    answers: ["A literatura galega", "Un escritor galego", "A lingua galega", "A cultura galega"],
+    correct: 1,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+  {
+    id: 1113,
+    question: "Cando se celebra o Día das Letras Galegas?",
+    answers: ["17 de maio", "25 de xullo", "15 de setembro", "6 de decembro"],
+    correct: 0,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+
+  // Relacións España-Galicia
+  {
+    id: 1114,
+    question: "Cantos deputados galegos hai no Congreso español?",
+    answers: ["20", "23", "25", "27"],
+    correct: 1,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+  {
+    id: 1115,
+    question: "Cantos senadores representa Galicia no Senado?",
+    answers: ["12", "16", "18", "20"],
+    correct: 1,
+    category: "politica_sociedade",
+    difficulty: "hard"
+  },
+  {
+    id: 1116,
+    question: "Cal é o sistema de financiación autonómica de Galicia?",
+    answers: ["Réxime común", "Réxime foral", "Réxime especial", "Réxime mixto"],
+    correct: 0,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+
+  // Sociedade española
+  {
+    id: 1117,
+    question: "Cal é a poboación aproximada de España?",
+    answers: ["45 millóns", "47 millóns", "49 millóns", "51 millóns"],
+    correct: 1,
+    category: "politica_sociedade",
+    difficulty: "easy"
+  },
+  {
+    id: 1118,
+    question: "Cal é a comunidade autónoma máis poboada?",
+    answers: ["Madrid", "Cataluña", "Andalucía", "Valencia"],
+    correct: 2,
+    category: "politica_sociedade",
+    difficulty: "easy"
+  },
+  {
+    id: 1119,
+    question: "Cal é a taxa de desemprego aproximada en España?",
+    answers: ["10%", "13%", "15%", "18%"],
+    correct: 1,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+  {
+    id: 1120,
+    question: "Que lingua autonómica ten máis falantes?",
+    answers: ["Catalán", "Galego", "Éuscaro", "Valenciano"],
+    correct: 0,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+
+  // Historia recente
+  {
+    id: 1121,
+    question: "Cando se celebrou o referéndum da OTAN?",
+    answers: ["1984", "1986", "1988", "1990"],
+    correct: 1,
+    category: "politica_sociedade",
+    difficulty: "hard"
+  },
+  {
+    id: 1122,
+    question: "En que ano se adoptou o euro en España?",
+    answers: ["1999", "2001", "2002", "2003"],
+    correct: 2,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+  {
+    id: 1123,
+    question: "Cando se celebraron as Olimpíadas de Barcelona?",
+    answers: ["1990", "1992", "1994", "1996"],
+    correct: 1,
+    category: "politica_sociedade",
+    difficulty: "easy"
+  },
+  {
+    id: 1124,
+    question: "En que ano foi a Expo de Sevilla?",
+    answers: ["1990", "1992", "1994", "1996"],
+    correct: 1,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+
+  // Institucións españolas
+  {
+    id: 1125,
+    question: "Cal é a sede do Goberno español?",
+    answers: ["Palacio Real", "Palacio da Moncloa", "Palacio do Congreso", "Palacio do Senado"],
+    correct: 1,
+    category: "politica_sociedade",
+    difficulty: "easy"
+  },
+  {
+    id: 1126,
+    question: "Onde ten a súa sede o Tribunal Constitucional?",
+    answers: ["Madrid", "Barcelona", "Sevilla", "Valencia"],
+    correct: 0,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+  {
+    id: 1127,
+    question: "Cal é a función do Consello de Estado?",
+    answers: ["Órgano consultivo", "Tribunal superior", "Órgano lexislativo", "Órgano executivo"],
+    correct: 0,
+    category: "politica_sociedade",
+    difficulty: "hard"
+  },
+
+  // Dereitos e liberdades
+  {
+    id: 1128,
+    question: "Cando se aboliu a pena de morte en España?",
+    answers: ["1975", "1978", "1983", "1995"],
+    correct: 3,
+    category: "politica_sociedade",
+    difficulty: "hard"
+  },
+  {
+    id: 1129,
+    question: "En que ano se aprobou o matrimonio homosexual?",
+    answers: ["2003", "2005", "2007", "2009"],
+    correct: 1,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+  {
+    id: 1130,
+    question: "Cando se aprobou a Lei de Igualdade de Xénero?",
+    answers: ["2005", "2007", "2009", "2011"],
+    correct: 1,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+
+  // Relacións internacionais
+  {
+    id: 1131,
+    question: "Cando ingresou España na OTAN?",
+    answers: ["1980", "1982", "1984", "1986"],
+    correct: 1,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+  {
+    id: 1132,
+    question: "España é membro fundador da UE?",
+    answers: ["Si", "Non", "Membro fundador da CEE", "Membro desde 1986"],
+    correct: 3,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+  {
+    id: 1133,
+    question: "Cal é a política exterior española respecto a Gibraltar?",
+    answers: ["Soberanía española", "Autonomía británica", "Status quo", "Independencia"],
+    correct: 0,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+
+  // Crises e retos actuais
+  {
+    id: 1134,
+    question: "Cal foi o ano da maior crise económica recente en España?",
+    answers: ["2006", "2008", "2010", "2012"],
+    correct: 1,
+    category: "politica_sociedade",
+    difficulty: "easy"
+  },
+  {
+    id: 1135,
+    question: "Que medidas tomou España durante a crise do COVID-19?",
+    answers: ["Estado de alarma", "Confinamento", "ERTEs", "Todas as anteriores"],
+    correct: 3,
+    category: "politica_sociedade",
+    difficulty: "easy"
+  },
+  {
+    id: 1136,
+    question: "Cal é o principal reto demográfico de España?",
+    answers: ["Envellecemento", "Baixa natalidade", "Inmigración", "Todos os anteriores"],
+    correct: 3,
+    category: "politica_sociedade",
+    difficulty: "easy"
+  },
+
+  // Medios de comunicación
+  {
+    id: 1137,
+    question: "Cal é a televisión pública española?",
+    answers: ["TVE", "RTVE", "La 1", "Todas as anteriores"],
+    correct: 3,
+    category: "politica_sociedade",
+    difficulty: "easy"
+  },
+  {
+    id: 1138,
+    question: "Cal é o diario español de maior tirada?",
+    answers: ["El País", "El Mundo", "ABC", "La Vanguardia"],
+    correct: 0,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+  {
+    id: 1139,
+    question: "Cal é o principal diario galego?",
+    answers: ["La Voz de Galicia", "Faro de Vigo", "El Correo Gallego", "Diario de Pontevedra"],
+    correct: 0,
+    category: "politica_sociedade",
+    difficulty: "easy"
+  },
+
+  // Educación e cultura
+  {
+    id: 1140,
+    question: "Ata que idade é obrigatoria a educación en España?",
+    answers: ["14 anos", "15 anos", "16 anos", "18 anos"],
+    correct: 2,
+    category: "politica_sociedade",
+    difficulty: "easy"
+  },
+  {
+    id: 1141,
+    question: "Cal é a universidade galega máis antiga?",
+    answers: ["USC", "UVigo", "UDC", "Universidade de Santiago"],
+    correct: 0,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+  {
+    id: 1142,
+    question: "Cantas universidades públicas ten Galicia?",
+    answers: ["2", "3", "4", "5"],
+    correct: 1,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+
+  // Sanidade e benestar
+  {
+    id: 1143,
+    question: "Cal é o sistema sanitario español?",
+    answers: ["Público universal", "Privado", "Mixto", "Por seguros"],
+    correct: 0,
+    category: "politica_sociedade",
+    difficulty: "easy"
+  },
+  {
+    id: 1144,
+    question: "Cando se creou o sistema sanitario público universal?",
+    answers: ["1978", "1982", "1986", "1990"],
+    correct: 2,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+  {
+    id: 1145,
+    question: "Cal é a esperanza de vida en España?",
+    answers: ["80 anos", "82 anos", "84 anos", "86 anos"],
+    correct: 2,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+
+  // Sistema xudicial
+  {
+    id: 1146,
+    question: "Cal é o órgano supremo do poder xudicial español?",
+    answers: ["Tribunal Supremo", "Tribunal Constitucional", "Audiencia Nacional", "CGPJ"],
+    correct: 0,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+  {
+    id: 1147,
+    question: "Onde está situada a Audiencia Nacional?",
+    answers: ["Madrid", "Barcelona", "Sevilla", "Valencia"],
+    correct: 0,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+
+  // Curiosidades políticas
+  {
+    id: 1148,
+    question: "Cal foi o presidente do Goberno máis novo?",
+    answers: ["Adolfo Suárez", "Felipe González", "José María Aznar", "Pedro Sánchez"],
+    correct: 0,
+    category: "politica_sociedade",
+    difficulty: "hard"
+  },
+  {
+    id: 1149,
+    question: "Cantas mocións de censura prosperaron en España?",
+    answers: ["0", "1", "2", "3"],
+    correct: 1,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+  {
+    id: 1150,
+    question: "Quen foi a primeira muller ministra en España?",
+    answers: ["Federica Montseny", "Carmen Conde", "Soledad Becerril", "Cristina Alberdi"],
+    correct: 0,
+    category: "politica_sociedade",
+    difficulty: "hard"
+  },
+
+  // Últimas preguntas de síntese
+  {
+    id: 1151,
+    question: "Cal é o maior reto político de Galicia?",
+    answers: ["Demografía", "Economía", "Lingua", "Todos os anteriores"],
+    correct: 3,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+  {
+    id: 1152,
+    question: "Que caracteriza o sistema autonómico español?",
+    answers: ["Descentralización", "Diversidade", "Complexidade", "Todas as anteriores"],
+    correct: 3,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+  {
+    id: 1153,
+    question: "Cal é o futuro político de Galicia?",
+    answers: ["Maior autonomía", "Statu quo", "Depende dos cidadáns", "Incerto"],
+    correct: 2,
+    category: "politica_sociedade",
+    difficulty: "medium"
+  },
+  {
+    id: 1154,
+    question: "Que representa a democracia para España?",
+    answers: ["Liberdade", "Dereitos", "Participación", "Todas as anteriores"],
+    correct: 3,
+    category: "politica_sociedade",
+    difficulty: "easy"
+  },
+  {
+    id: 1155,
+    question: "Cal é a importancia da participación cidadá?",
+    answers: ["Fundamental", "Importante", "Necesaria", "Todas as anteriores"],
+    correct: 3,
+    category: "politica_sociedade",
+    difficulty: "easy"
+  },
+  {
+    id: 1156,
+    question: "Que legado deixa a democracia española?",
+    answers: ["Liberdades", "Dereitos", "Institucións", "Todas as anteriores"],
+    correct: 3,
+    category: "politica_sociedade",
+    difficulty: "easy"
   }
 ];
 

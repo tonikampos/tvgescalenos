@@ -1,23 +1,22 @@
-# FORCE DEPLOY - v2.5.0 MÚSICA
-# Data: 2025-06-30
-# Cambios: 100 preguntas novas de música e cantantes
+# FORCE DEPLOY - v2.6.0 MATEMÁTICAS E FÍSICA
+# Data: 2025-01-22
+# Cambios: 100 preguntas novas de matemáticas e física
 # Este ficheiro forza a Netlify a redeployar
 
-Versión: 2.5.0
-Preguntas: 656 (556 TV + 100 música)
-Deploy time: 2025-06-30T15:45:00Z
-Cambio ID: force-656-questions-music-v250
+Versión: 2.6.0
+Preguntas: 756 (556 TV + 100 música + 100 matemáticas/física)
+Deploy time: 2025-01-22T12:00:00Z
+Cambio ID: force-756-questions-math-physics-v260
 
 ## Cambios principais:
-- 100 preguntas novas de música e cantantes
-- Música clásica: Beethoven, Mozart, Bach, Chopin
-- Rock internacional: Queen, Beatles, Led Zeppelin, Elvis
-- Pop actual: Adele, Ed Sheeran, Lady Gaga
-- Música española: Rosalía, Alejandro Sanz, Mecano
-- Música galega: Os Resentidos, Carlos Núñez
-- Jazz, Blues, Reggae, Hip Hop, Electrónica
-- Instrumentos, festivais, premios musicais
-- Versión 2.5.0 actualizada
+- 100 preguntas novas de matemáticas e física (IDs 657-756)
+- Mantidas as 100 preguntas de música (IDs 557-656)
+- Matemáticas básicas: aritmética, álxebra, xeometría
+- Física: mecánica, electricidade, óptica, ondas
+- Química: elementos, reaccións, materia
+- Dificultades: easy, medium, hard
+- Total: 756 preguntas (656 anteriores + 100 novas)
+- Versión 2.6.0 actualizada
 - Cache forzado a actualizarse
 
 FORCE_UPDATE_MUSICA=true
