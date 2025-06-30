@@ -1,4 +1,4 @@
-const CACHE_NAME = 'os-escalenos-trivia-v2.5.0-656preguntas-musica-FORCE-' + Date.now() + '-' + Math.random();
+const CACHE_NAME = 'os-escalenos-trivia-v2.5.0-656preguntas-ULTRA-FORCE-CACHE-BUST-' + Date.now() + '-' + Math.random() + '-656PREGUNTAS';
 const urlsToCache = [
   './',
   './index.html',
