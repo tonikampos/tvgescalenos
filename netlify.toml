@@ -1,9 +1,9 @@
-# Configuración de Netlify para Trivia Galega PWA - v2.0
+# Configuración de Netlify para Trivia Galega PWA - v2.5.0 MÚSICA
 
 [build]
   # Carpeta a publicar (como estamos en la raíz, usamos ".")
   publish = "."  # Forçar build sempre
-  command = "echo 'Deploy OS ESCALENOS v2.0 WORKING FINAL con 230 preguntas + sistema multiusuario'"
+  command = "echo 'Deploy OS ESCALENOS v2.5.0 MÚSICA con 656 preguntas (556 TV + 100 música)'"
   
 [build.environment]
   # Variables de entorno (si necesitas alguna en el futuro)
