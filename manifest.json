@@ -1,7 +1,7 @@
 {
-  "name": "OS ESCALENOS - Trivia Galega TV v2.4.0",
-  "short_name": "OS ESCALENOS TV v2.4.0",
-  "description": "Trivia Galega do equipo OS ESCALENOS con 556 preguntas para programa de televisión. Pon a proba os teus coñecementos!",
+  "name": "OS ESCALENOS - Trivia Galega TV v2.5.0",
+  "short_name": "OS ESCALENOS TV v2.5.0",
+  "description": "Trivia Galega do equipo OS ESCALENOS con 656 preguntas para programa de televisión + 100 preguntas de música. Pon a proba os teus coñecementos!",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#ffffff",

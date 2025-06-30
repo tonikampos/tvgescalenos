@@ -4519,6 +4519,875 @@ const QUESTIONS_DATABASE = [
     correct: 1,
     category: "patrimonio",
     difficulty: "medium"
+  },
+
+  // === PREGUNTAS DE MÚSICA E CANTANTES (IDs 557-656) ===
+  // Música clásica e histórica
+  {
+    id: 557,
+    question: "Quen compuxo 'La Novena Sinfonía' con o 'Himno da Alegría'?",
+    answers: ["Mozart", "Beethoven", "Bach", "Schubert"],
+    correct: 1,
+    category: "musica",
+    difficulty: "easy"
+  },
+  {
+    id: 558,
+    question: "Que instrumento tocaba principalmente Mozart?",
+    answers: ["Violín", "Piano", "Flauta", "Cello"],
+    correct: 1,
+    category: "musica",
+    difficulty: "medium"
+  },
+  {
+    id: 559,
+    question: "Cal é o nome real de Johann Sebastian Bach?",
+    answers: ["Johann Sebastian Bach", "Johann Christian Bach", "Johann Baptist Bach", "Johann Michael Bach"],
+    correct: 0,
+    category: "musica",
+    difficulty: "easy"
+  },
+  {
+    id: 560,
+    question: "En que país naceu Frédéric Chopin?",
+    answers: ["Francia", "Polonia", "Austria", "Alemaña"],
+    correct: 1,
+    category: "musica",
+    difficulty: "medium"
+  },
+  {
+    id: 561,
+    question: "Quen é coñecido como 'O Rei do Vals'?",
+    answers: ["Johann Strauss II", "Franz Schubert", "Johannes Brahms", "Robert Schumann"],
+    correct: 0,
+    category: "musica",
+    difficulty: "medium"
+  },
+
+  // Rock e Pop internacional
+  {
+    id: 562,
+    question: "Que banda británica cantou 'Bohemian Rhapsody'?",
+    answers: ["The Beatles", "Queen", "Led Zeppelin", "Pink Floyd"],
+    correct: 1,
+    category: "musica",
+    difficulty: "easy"
+  },
+  {
+    id: 563,
+    question: "Cal é o nome real de Freddie Mercury?",
+    answers: ["Frederick Mercury", "Farrokh Bulsara", "Freddie Bulsara", "Frederick Bulsara"],
+    correct: 1,
+    category: "musica",
+    difficulty: "hard"
+  },
+  {
+    id: 564,
+    question: "Que cantante é coñecido como 'O Rei do Rock and Roll'?",
+    answers: ["Chuck Berry", "Elvis Presley", "Little Richard", "Jerry Lee Lewis"],
+    correct: 1,
+    category: "musica",
+    difficulty: "easy"
+  },
+  {
+    id: 565,
+    question: "En que ano se separaron The Beatles?",
+    answers: ["1969", "1970", "1971", "1972"],
+    correct: 1,
+    category: "musica",
+    difficulty: "medium"
+  },
+  {
+    id: 566,
+    question: "Quen foi o vocalista principal de Led Zeppelin?",
+    answers: ["Jimmy Page", "John Paul Jones", "Robert Plant", "John Bonham"],
+    correct: 2,
+    category: "musica",
+    difficulty: "medium"
+  },
+  {
+    id: 567,
+    question: "Que álbum de Pink Floyd contén a canción 'Money'?",
+    answers: ["The Wall", "Wish You Were Here", "The Dark Side of the Moon", "Animals"],
+    correct: 2,
+    category: "musica",
+    difficulty: "medium"
+  },
+  {
+    id: 568,
+    question: "Cal é o nome real de David Bowie?",
+    answers: ["David Jones", "David Bowie", "David Robert Jones", "David Michael Jones"],
+    correct: 2,
+    category: "musica",
+    difficulty: "hard"
+  },
+
+  // Música española histórica
+  {
+    id: 569,
+    question: "Quen compuxo a zarzuela 'La Verbena de la Paloma'?",
+    answers: ["Federico Chueca", "Ruperto Chapí", "Francisco Asenjo Barbieri", "Tomás Bretón"],
+    correct: 0,
+    category: "musica",
+    difficulty: "hard"
+  },
+  {
+    id: 570,
+    question: "Cal foi o cantante principal do grupo Dúo Dinámico?",
+    answers: ["Manolo de la Calva", "Ramón Arcusa", "Ambos cantaban", "Só Manolo"],
+    correct: 2,
+    category: "musica",
+    difficulty: "medium"
+  },
+  {
+    id: 571,
+    question: "Quen cantou '¡Que Viva España!' nos anos 70?",
+    answers: ["Manolo Escobar", "Peret", "Los del Río", "Georgie Dann"],
+    correct: 0,
+    category: "musica",
+    difficulty: "easy"
+  },
+  {
+    id: 572,
+    question: "Raphael é orixinario de que cidade española?",
+    answers: ["Madrid", "Sevilla", "Linares", "Córdoba"],
+    correct: 2,
+    category: "musica",
+    difficulty: "medium"
+  },
+
+  // Música actual internacional
+  {
+    id: 573,
+    question: "Quen cantou 'Rolling in the Deep'?",
+    answers: ["Adele", "Amy Winehouse", "Alicia Keys", "Beyoncé"],
+    correct: 0,
+    category: "musica",
+    difficulty: "easy"
+  },
+  {
+    id: 574,
+    question: "Cal é o nome real de Lady Gaga?",
+    answers: ["Stefani Germanotta", "Stefani Joanne Angelina Germanotta", "Stephanie Gaga", "Lady Stefani"],
+    correct: 1,
+    category: "musica",
+    difficulty: "medium"
+  },
+  {
+    id: 575,
+    question: "Que cantante popularizou a canción 'Shape of You'?",
+    answers: ["Sam Smith", "Ed Sheeran", "John Mayer", "Bruno Mars"],
+    correct: 1,
+    category: "musica",
+    difficulty: "easy"
+  },
+  {
+    id: 576,
+    question: "En que ano morreu Michael Jackson?",
+    answers: ["2008", "2009", "2010", "2011"],
+    correct: 1,
+    category: "musica",
+    difficulty: "medium"
+  },
+  {
+    id: 577,
+    question: "Quen é coñecida como 'A Raíña do Pop'?",
+    answers: ["Madonna", "Whitney Houston", "Mariah Carey", "Celine Dion"],
+    correct: 0,
+    category: "musica",
+    difficulty: "easy"
+  },
+  {
+    id: 578,
+    question: "Que banda británica cantou 'Wonderwall'?",
+    answers: ["Blur", "Oasis", "Radiohead", "Coldplay"],
+    correct: 1,
+    category: "musica",
+    difficulty: "easy"
+  },
+
+  // Música española actual
+  {
+    id: 579,
+    question: "Cal é o nome real de Rosalía?",
+    answers: ["Rosa Vila", "Rosalía Vila Tobella", "Rosa Tobella", "Rosalía Vila"],
+    correct: 1,
+    category: "musica",
+    difficulty: "medium"
+  },
+  {
+    id: 580,
+    question: "Quen cantou 'Corazón Partío'?",
+    answers: ["Alejandro Sanz", "Jesse & Joy", "David Bisbal", "Pablo Alborán"],
+    correct: 0,
+    category: "musica",
+    difficulty: "easy"
+  },
+  {
+    id: 581,
+    question: "De que cidade é orixinario Pablo Alborán?",
+    answers: ["Sevilla", "Madrid", "Málaga", "Granada"],
+    correct: 2,
+    category: "musica",
+    difficulty: "medium"
+  },
+  {
+    id: 582,
+    question: "Quen foi o vocalista do grupo Héroes del Silencio?",
+    answers: ["Enrique Bunbury", "Fito Cabrales", "Andrés Calamaro", "Joaquín Sabina"],
+    correct: 0,
+    category: "musica",
+    difficulty: "medium"
+  },
+  {
+    id: 583,
+    question: "Que grupo español cantou 'Devuélveme a mi chica'?",
+    answers: ["Radio Futura", "Nacha Pop", "Hombres G", "Mecano"],
+    correct: 2,
+    category: "musica",
+    difficulty: "easy"
+  },
+
+  // Jazz e Blues
+  {
+    id: 584,
+    question: "Quen é coñecido como 'O Rei do Jazz'?",
+    answers: ["Miles Davis", "Louis Armstrong", "Duke Ellington", "Charlie Parker"],
+    correct: 1,
+    category: "musica",
+    difficulty: "medium"
+  },
+  {
+    id: 585,
+    question: "Que instrumento tocaba principalmente Miles Davis?",
+    answers: ["Saxofón", "Trompeta", "Trombone", "Clarinete"],
+    correct: 1,
+    category: "musica",
+    difficulty: "medium"
+  },
+  {
+    id: 586,
+    question: "Cal é considerada a 'Raíña do Blues'?",
+    answers: ["Billie Holiday", "Ella Fitzgerald", "Aretha Franklin", "B.B. King"],
+    correct: 0,
+    category: "musica",
+    difficulty: "hard"
+  },
+
+  // Música latina
+  {
+    id: 587,
+    question: "Quen cantou 'La Vida es una Fiesta'?",
+    answers: ["Manu Chao", "Jesse & Joy", "Manu Tenorio", "Non existe esa canción"],
+    correct: 3,
+    category: "musica",
+    difficulty: "hard"
+  },
+  {
+    id: 588,
+    question: "Shakira é orixinaria de que país?",
+    answers: ["España", "México", "Colombia", "Venezuela"],
+    correct: 2,
+    category: "musica",
+    difficulty: "easy"
+  },
+  {
+    id: 589,
+    question: "Quen cantou 'Livin' la Vida Loca'?",
+    answers: ["Enrique Iglesias", "Ricky Martin", "Luis Miguel", "Marc Anthony"],
+    correct: 1,
+    category: "musica",
+    difficulty: "easy"
+  },
+  {
+    id: 590,
+    question: "Que cantante mexicana foi coñecida como 'La Reina de la Música Ranchera'?",
+    answers: ["Lola Beltrán", "Chavela Vargas", "Rocío Dúrcal", "Lucha Villa"],
+    correct: 0,
+    category: "musica",
+    difficulty: "hard"
+  },
+
+  // Música galega específica
+  {
+    id: 591,
+    question: "Quen foi o fundador do grupo Os Resentidos?",
+    answers: ["Antón Reixa", "Alberto Torrado", "Javier Soto", "Todos xuntos"],
+    correct: 3,
+    category: "musica",
+    difficulty: "medium"
+  },
+  {
+    id: 592,
+    question: "Cal é o nome completo do gaiteiro Carlos Núñez?",
+    answers: ["Carlos Núñez Muñoz", "Carlos Núñez Fernández", "Carlos Núñez González", "Carlos Núñez"],
+    correct: 0,
+    category: "musica",
+    difficulty: "hard"
+  },
+  {
+    id: 593,
+    question: "Que grupo galego fusiona música tradicional con electrónica?",
+    answers: ["Luar na Lubre", "Mercedes Peón", "Berrogüetto", "Milladoiro"],
+    correct: 1,
+    category: "musica",
+    difficulty: "medium"
+  },
+  {
+    id: 594,
+    question: "En que ano se fundou o grupo Siniestro Total?",
+    answers: ["1980", "1981", "1982", "1983"],
+    correct: 1,
+    category: "musica",
+    difficulty: "hard"
+  },
+
+  // Instrumentos musicais
+  {
+    id: 595,
+    question: "Cantas cordas ten unha guitarra española estándar?",
+    answers: ["4", "5", "6", "7"],
+    correct: 2,
+    category: "musica",
+    difficulty: "easy"
+  },
+  {
+    id: 596,
+    question: "Que instrumento ten 88 teclas?",
+    answers: ["Órgano", "Piano", "Acordeón", "Sintetizador"],
+    correct: 1,
+    category: "musica",
+    difficulty: "easy"
+  },
+  {
+    id: 597,
+    question: "Cal é o instrumento de corda máis grave nunha orquestra?",
+    answers: ["Cello", "Viola", "Contrabaixo", "Violín"],
+    correct: 2,
+    category: "musica",
+    difficulty: "medium"
+  },
+
+  // Festivais de música
+  {
+    id: 598,
+    question: "En que cidade se celebra o festival Coachella?",
+    answers: ["Los Angeles", "San Francisco", "Indio", "Las Vegas"],
+    correct: 2,
+    category: "musica",
+    difficulty: "medium"
+  },
+  {
+    id: 599,
+    question: "Onde se celebra o Festival Internacional de Benicàssim?",
+    answers: ["Valencia", "Alicante", "Castellón", "Murcia"],
+    correct: 2,
+    category: "musica",
+    difficulty: "medium"
+  },
+  {
+    id: 600,
+    question: "Cal é o festival de música máis famoso do Reino Unido?",
+    answers: ["Glastonbury", "Reading", "Download", "Isle of Wight"],
+    correct: 0,
+    category: "musica",
+    difficulty: "medium"
+  },
+
+  // Curiosidades musicais
+  {
+    id: 601,
+    question: "Cantas notas musicais hai no sistema occidental?",
+    answers: ["5", "7", "8", "12"],
+    correct: 3,
+    category: "musica",
+    difficulty: "medium"
+  },
+  {
+    id: 602,
+    question: "Que significa 'forte' en música?",
+    answers: ["Forte", "Suave", "Rápido", "Lento"],
+    correct: 0,
+    category: "musica",
+    difficulty: "easy"
+  },
+  {
+    id: 603,
+    question: "Cal é a nota máis grave nun piano estándar?",
+    answers: ["Do", "La", "Sol", "Mi"],
+    correct: 0,
+    category: "musica",
+    difficulty: "hard"
+  },
+
+  // Música de cine
+  {
+    id: 604,
+    question: "Quen compuxo a banda sonora de 'Star Wars'?",
+    answers: ["Hans Zimmer", "John Williams", "Danny Elfman", "James Horner"],
+    correct: 1,
+    category: "musica",
+    difficulty: "medium"
+  },
+  {
+    id: 605,
+    question: "Que compositor creou a música de 'El Padrino'?",
+    answers: ["Ennio Morricone", "Nino Rota", "Bernard Herrmann", "Jerry Goldsmith"],
+    correct: 1,
+    category: "musica",
+    difficulty: "hard"
+  },
+
+  // Música dos anos 80-90
+  {
+    id: 606,
+    question: "Quen cantou 'Sweet Child O' Mine'?",
+    answers: ["Bon Jovi", "Guns N' Roses", "Aerosmith", "Def Leppard"],
+    correct: 1,
+    category: "musica",
+    difficulty: "easy"
+  },
+  {
+    id: 607,
+    question: "Que grupo británico cantou 'Don't Stop Me Now'?",
+    answers: ["The Rolling Stones", "Queen", "The Who", "Depeche Mode"],
+    correct: 1,
+    category: "musica",
+    difficulty: "medium"
+  },
+  {
+    id: 608,
+    question: "Cal foi o primeiro vídeo musical emitido en MTV?",
+    answers: ["Video Killed the Radio Star", "Money for Nothing", "Thriller", "Like a Virgin"],
+    correct: 0,
+    category: "musica",
+    difficulty: "hard"
+  },
+
+  // Música country e folk
+  {
+    id: 609,
+    question: "Quen é coñecida como 'A Raíña do Country'?",
+    answers: ["Dolly Parton", "Shania Twain", "Faith Hill", "Carrie Underwood"],
+    correct: 0,
+    category: "musica",
+    difficulty: "medium"
+  },
+  {
+    id: 610,
+    question: "Bob Dylan gañou o Premio Nobel de que disciplina?",
+    answers: ["Música", "Literatura", "Paz", "Non gañou ningún Nobel"],
+    correct: 1,
+    category: "musica",
+    difficulty: "medium"
+  },
+
+  // Música electrónica
+  {
+    id: 611,
+    question: "Quen é considerado un pioneiro da música electrónica?",
+    answers: ["Jean-Michel Jarre", "Kraftwerk", "Giorgio Moroder", "Todos os anteriores"],
+    correct: 3,
+    category: "musica",
+    difficulty: "hard"
+  },
+  {
+    id: 612,
+    question: "Que xénero musical popularizou David Guetta?",
+    answers: ["Techno", "House", "EDM", "Trance"],
+    correct: 2,
+    category: "musica",
+    difficulty: "medium"
+  },
+
+  // Ópera
+  {
+    id: 613,
+    question: "Quen compuxo 'La Traviata'?",
+    answers: ["Puccini", "Verdi", "Wagner", "Rossini"],
+    correct: 1,
+    category: "musica",
+    difficulty: "medium"
+  },
+  {
+    id: 614,
+    question: "Cal é a ópera máis famosa de Bizet?",
+    answers: ["Carmen", "La Bohème", "Tosca", "Aida"],
+    correct: 0,
+    category: "musica",
+    difficulty: "medium"
+  },
+
+  // Reggae e música jamaicana
+  {
+    id: 615,
+    question: "Quen é considerado o 'Rei do Reggae'?",
+    answers: ["Jimmy Cliff", "Bob Marley", "Peter Tosh", "Burning Spear"],
+    correct: 1,
+    category: "musica",
+    difficulty: "easy"
+  },
+  {
+    id: 616,
+    question: "En que ano morreu Bob Marley?",
+    answers: ["1980", "1981", "1982", "1983"],
+    correct: 1,
+    category: "musica",
+    difficulty: "medium"
+  },
+
+  // Hip Hop e Rap
+  {
+    id: 617,
+    question: "Quen é considerado un dos pioneiros do hip hop?",
+    answers: ["Grandmaster Flash", "Run-DMC", "LL Cool J", "Todos os anteriores"],
+    correct: 3,
+    category: "musica",
+    difficulty: "medium"
+  },
+  {
+    id: 618,
+    question: "Cal é o nome real de Eminem?",
+    answers: ["Marshall Mathers", "Marshall Bruce Mathers III", "Eminem Mathers", "Bruce Marshall"],
+    correct: 1,
+    category: "musica",
+    difficulty: "medium"
+  },
+
+  // Música brasileira
+  {
+    id: 619,
+    question: "Quen popularizou a Bossa Nova?",
+    answers: ["Caetano Veloso", "Gilberto Gil", "Antonio Carlos Jobim", "Jorge Ben Jor"],
+    correct: 2,
+    category: "musica",
+    difficulty: "medium"
+  },
+  {
+    id: 620,
+    question: "Cal é a canción brasileira máis coñecida internacionalmente?",
+    answers: ["Mas que Nada", "The Girl from Ipanema", "Aquarela do Brasil", "Samba de Uma Nota Só"],
+    correct: 1,
+    category: "musica",
+    difficulty: "medium"
+  },
+
+  // Música de videoxogos
+  {
+    id: 621,
+    question: "Quen compuxo a música do videoxogo 'Super Mario Bros'?",
+    answers: ["Shigeru Miyamoto", "Koji Kondo", "Nobuo Uematsu", "Yuzo Koshiro"],
+    correct: 1,
+    category: "musica",
+    difficulty: "hard"
+  },
+
+  // Bandas sonoras famosas
+  {
+    id: 622,
+    question: "Quen cantou 'My Heart Will Go On' de Titanic?",
+    answers: ["Whitney Houston", "Mariah Carey", "Celine Dion", "Barbra Streisand"],
+    correct: 2,
+    category: "musica",
+    difficulty: "easy"
+  },
+  {
+    id: 623,
+    question: "Que película ten a canción 'Eye of the Tiger'?",
+    answers: ["Rocky III", "Rocky IV", "Karate Kid", "Top Gun"],
+    correct: 0,
+    category: "musica",
+    difficulty: "medium"
+  },
+
+  // Música clásica española
+  {
+    id: 624,
+    question: "Quen compuxo 'Concierto de Aranjuez'?",
+    answers: ["Manuel de Falla", "Joaquín Rodrigo", "Isaac Albéniz", "Enrique Granados"],
+    correct: 1,
+    category: "musica",
+    difficulty: "hard"
+  },
+  {
+    id: 625,
+    question: "Cal é a obra máis famosa de Manuel de Falla?",
+    answers: ["El Amor Brujo", "Noches en los Jardines de España", "El Sombrero de Tres Picos", "Todas son famosas"],
+    correct: 3,
+    category: "musica",
+    difficulty: "hard"
+  },
+
+  // Música soul e R&B
+  {
+    id: 626,
+    question: "Quen é coñecida como 'A Raíña do Soul'?",
+    answers: ["Diana Ross", "Aretha Franklin", "Tina Turner", "Gladys Knight"],
+    correct: 1,
+    category: "musica",
+    difficulty: "medium"
+  },
+  {
+    id: 627,
+    question: "Que cantante popularizou 'What's Going On'?",
+    answers: ["Stevie Wonder", "Marvin Gaye", "Al Green", "Sam Cooke"],
+    correct: 1,
+    category: "musica",
+    difficulty: "medium"
+  },
+
+  // Música disco
+  {
+    id: 628,
+    question: "Quen cantou 'I Will Survive'?",
+    answers: ["Diana Ross", "Gloria Gaynor", "Donna Summer", "Chic"],
+    correct: 1,
+    category: "musica",
+    difficulty: "easy"
+  },
+  {
+    id: 629,
+    question: "Que grupo creou 'Stayin' Alive'?",
+    answers: ["ABBA", "Bee Gees", "Earth Wind & Fire", "KC and the Sunshine Band"],
+    correct: 1,
+    category: "musica",
+    difficulty: "easy"
+  },
+
+  // Música punk
+  {
+    id: 630,
+    question: "Quen foi o vocalista dos Sex Pistols?",
+    answers: ["Johnny Rotten", "Sid Vicious", "Steve Jones", "Paul Cook"],
+    correct: 0,
+    category: "musica",
+    difficulty: "medium"
+  },
+  {
+    id: 631,
+    question: "Que banda estadounidense é considerada pioneira do punk?",
+    answers: ["The Ramones", "The Dead Kennedys", "Black Flag", "Bad Religion"],
+    correct: 0,
+    category: "musica",
+    difficulty: "medium"
+  },
+
+  // Música grunge
+  {
+    id: 632,
+    question: "Quen foi o vocalista de Nirvana?",
+    answers: ["Eddie Vedder", "Kurt Cobain", "Chris Cornell", "Layne Staley"],
+    correct: 1,
+    category: "musica",
+    difficulty: "easy"
+  },
+  {
+    id: 633,
+    question: "De que cidade xurdiu o movemento grunge?",
+    answers: ["Los Angeles", "Nova York", "Seattle", "San Francisco"],
+    correct: 2,
+    category: "musica",
+    difficulty: "medium"
+  },
+
+  // Música indie e alternativa
+  {
+    id: 634,
+    question: "Quen é o vocalista de Radiohead?",
+    answers: ["Thom Yorke", "Jonny Greenwood", "Ed O'Brien", "Colin Greenwood"],
+    correct: 0,
+    category: "musica",
+    difficulty: "medium"
+  },
+  {
+    id: 635,
+    question: "Que banda británica cantou 'Mr. Brightside'?",
+    answers: ["Arctic Monkeys", "The Killers", "Franz Ferdinand", "Kaiser Chiefs"],
+    correct: 1,
+    category: "musica",
+    difficulty: "medium"
+  },
+
+  // Música de piano
+  {
+    id: 636,
+    question: "Quen compuxo 'Für Elise'?",
+    answers: ["Mozart", "Beethoven", "Chopin", "Liszt"],
+    correct: 1,
+    category: "musica",
+    difficulty: "easy"
+  },
+  {
+    id: 637,
+    question: "Cal é considerado o pianista máis virtuoso da historia?",
+    answers: ["Franz Liszt", "Frédéric Chopin", "Sergei Rachmaninoff", "Todos son considerados virtuosos"],
+    correct: 3,
+    category: "musica",
+    difficulty: "hard"
+  },
+
+  // Música moderna española
+  {
+    id: 638,
+    question: "Quen cantou 'Con Altura' xunto con Rosalía?",
+    answers: ["C. Tangana", "J Balvin", "Bad Bunny", "Ozuna"],
+    correct: 1,
+    category: "musica",
+    difficulty: "easy"
+  },
+  {
+    id: 639,
+    question: "Cal é o nome real de C. Tangana?",
+    answers: ["Carlos Tangana", "Antón Álvarez", "Carlos Álvarez", "Antonio Tangana"],
+    correct: 1,
+    category: "musica",
+    difficulty: "medium"
+  },
+
+  // Música francesa
+  {
+    id: 640,
+    question: "Quen cantou 'La Vie en Rose'?",
+    answers: ["Brigitte Bardot", "Édith Piaf", "Françoise Hardy", "Sylvie Vartan"],
+    correct: 1,
+    category: "musica",
+    difficulty: "medium"
+  },
+  {
+    id: 641,
+    question: "Quen é coñecido como 'O último dos trobadores franceses'?",
+    answers: ["Jacques Brel", "Charles Aznavour", "Georges Brassens", "Léo Ferré"],
+    correct: 2,
+    category: "musica",
+    difficulty: "hard"
+  },
+
+  // Música de baile
+  {
+    id: 642,
+    question: "Quen popularizou a 'Macarena'?",
+    answers: ["Los del Río", "Georgie Dann", "Peret", "King Africa"],
+    correct: 0,
+    category: "musica",
+    difficulty: "easy"
+  },
+  {
+    id: 643,
+    question: "En que país se orixinou a salsa?",
+    answers: ["Cuba", "Puerto Rico", "Estados Unidos", "Colombia"],
+    correct: 2,
+    category: "musica",
+    difficulty: "medium"
+  },
+
+  // Premios musicais
+  {
+    id: 644,
+    question: "Cal é o premio musical máis prestixioso nos Estados Unidos?",
+    answers: ["American Music Awards", "Grammy Awards", "Billboard Music Awards", "MTV Awards"],
+    correct: 1,
+    category: "musica",
+    difficulty: "easy"
+  },
+  {
+    id: 645,
+    question: "Quen ten máis premios Grammy na historia?",
+    answers: ["Michael Jackson", "Madonna", "Beyoncé", "Paul McCartney"],
+    correct: 2,
+    category: "musica",
+    difficulty: "medium"
+  },
+
+  // Música regional española
+  {
+    id: 646,
+    question: "Cal é o baile tradicional andaluz máis coñecido?",
+    answers: ["Sevillanas", "Flamenco", "Fandango", "Todos os anteriores"],
+    correct: 3,
+    category: "musica",
+    difficulty: "easy"
+  },
+  {
+    id: 647,
+    question: "Quen é considerado o 'Camarón de la Isla' do flamenco?",
+    answers: ["José Monje Cruz", "Antonio Cruz García", "José Mercé", "Enrique Morente"],
+    correct: 0,
+    category: "musica",
+    difficulty: "hard"
+  },
+
+  // Últimas preguntas variadas
+  {
+    id: 648,
+    question: "Que instrumento tocaba Jimi Hendrix principalmente?",
+    answers: ["Baixo", "Batería", "Guitarra eléctrica", "Teclado"],
+    correct: 2,
+    category: "musica",
+    difficulty: "easy"
+  },
+  {
+    id: 649,
+    question: "Cal foi o primeiro álbum dos Rolling Stones?",
+    answers: ["Aftermath", "The Rolling Stones", "Out of Our Heads", "Beggars Banquet"],
+    correct: 1,
+    category: "musica",
+    difficulty: "hard"
+  },
+  {
+    id: 650,
+    question: "Quen escribiu a letra de 'Imagine'?",
+    answers: ["Paul McCartney", "John Lennon", "George Harrison", "Ringo Starr"],
+    correct: 1,
+    category: "musica",
+    difficulty: "easy"
+  },
+  {
+    id: 651,
+    question: "Que banda tocou no primeiro concierto de Woodstock?",
+    answers: ["The Who", "Jimi Hendrix", "Richie Havens", "Country Joe McDonald"],
+    correct: 2,
+    category: "musica",
+    difficulty: "hard"
+  },
+  {
+    id: 652,
+    question: "Cal é o álbum máis vendido de todos os tempos?",
+    answers: ["Thriller", "Back in Black", "The Dark Side of the Moon", "Abbey Road"],
+    correct: 0,
+    category: "musica",
+    difficulty: "medium"
+  },
+  {
+    id: 653,
+    question: "Quen foi a primeira muller en ganar un Grammy ao Álbum do Ano?",
+    answers: ["Carole King", "Stevie Nicks", "Judy Garland", "Barbra Streisand"],
+    correct: 0,
+    category: "musica",
+    difficulty: "hard"
+  },
+  {
+    id: 654,
+    question: "Cantos membros tiña o grupo ABBA?",
+    answers: ["3", "4", "5", "6"],
+    correct: 1,
+    category: "musica",
+    difficulty: "easy"
+  },
+  {
+    id: 655,
+    question: "En que década emerxeu o rock and roll?",
+    answers: ["1940s", "1950s", "1960s", "1970s"],
+    correct: 1,
+    category: "musica",
+    difficulty: "medium"
+  },
+  {
+    id: 656,
+    question: "Quen é coñecido como 'O Boss' na música?",
+    answers: ["Bob Dylan", "Bruce Springsteen", "Neil Young", "Tom Petty"],
+    correct: 1,
+    category: "musica",
+    difficulty: "medium"
   }
 ];
 

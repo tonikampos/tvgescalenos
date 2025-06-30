@@ -1,11 +1,11 @@
-# 🧠 OS ESCALENOS - Trivia Galega TV v2.4.0
+# 🧠 OS ESCALENOS - Trivia Galega TV v2.5.0
 
-Unha aplicación web progresiva (PWA) de trivia e cultura general en galego desenvolvida polo equipo **OS ESCALENOS**. Especialmente deseñada para programa de televisión galego con **556 preguntas** de alta calidade. Pon a proba os teus coñecementos cun xogo divertido e educativo!
+Unha aplicación web progresiva (PWA) de trivia e cultura general en galego desenvolvida polo equipo **OS ESCALENOS**. Especialmente deseñada para programa de televisión galego con **656 preguntas** de alta calidade. Pon a proba os teus coñecementos cun xogo divertido e educativo!
 
-## 🌟 Características v2.4.0
+## 🌟 Características v2.5.0
 
 ### ✅ Funcionalidades principais
-- **Xogo de trivia** con **556 preguntas** específicas para programa de televisión galego
+- **Xogo de trivia** con **656 preguntas** específicas para programa de televisión galego + 100 preguntas novas de música
 - **Sistema de usuarios**: Crear e xestionar múltiples usuarios
 - **Configuración personalizada**: Escoller número de preguntas (10-100) por partida
 - **Avance automático**: Pasa automaticamente á seguinte pregunta tras responder
@@ -226,6 +226,27 @@ Logo abre `http://localhost:8000` no navegador.
 - [ ] **Analytics** de uso
 
 ## 📋 Historial de versións
+
+### v2.5.0 (Xuño 2025) 🎵
+**100 preguntas novas de música e cantantes:**
+- ✅ **656+ preguntas totais**: 100 preguntas novas sobre música, cantantes e artistas de todos os tempos
+- ✅ **Música clásica**: Beethoven, Mozart, Bach, Chopin e grandes compositores
+- ✅ **Rock e Pop internacional**: Queen, Beatles, Led Zeppelin, música moderna
+- ✅ **Música española**: Desde zarzuela ata Rosalía, pasando por Mecano e Héroes del Silencio
+- ✅ **Xéneros diversos**: Jazz, Blues, Country, Reggae, Hip Hop, Electrónica
+- ✅ **Música galega**: Os Resentidos, Carlos Núñez, Mercedes Peón, Siniestro Total
+- ✅ **Instrumentos e teoría musical**: Piano, guitarra, orquestra, notas musicais
+- ✅ **Festivais e premios**: Coachella, Grammy Awards, Eurovision
+- ✅ **Bandas sonoras**: Star Wars, Titanic, Rocky e música de cine
+- ✅ **Artistas internacionais**: Desde Elvis ata Ed Sheeran, de Édith Piaf a Lady Gaga
+
+### v2.4.0 (Xuño 2025) 📺
+**100 preguntas específicas para programa de televisión galego:**
+- ✅ **556+ preguntas totais**: 100 preguntas novas específicas para programa de televisión
+- ✅ **Categorías televisivas**: Historia, personaxes, cultura, deporte, xeografía, gastronomía
+- ✅ **Nivel profesional**: Preguntas de dificultade media-alta para televisión
+- ✅ **Cultura galega especializada**: Patrimonio, tradicions, arte, ciencia
+- ✅ **Coñecemento profundo**: Preguntas específicas sobre institucións, empresas, natureza
 
 ### v2.3.2 (Xaneiro 2025) 📺
 **8 preguntas novas de TVG e cultura popular:**
